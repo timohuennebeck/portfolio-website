@@ -9,7 +9,7 @@ export default function AliaProject() {
         <div className="indv-project">
             <div className="indv-project__ctn">
                 <div className="indv-project__ctn-content">
-                    <h1>Alia</h1>
+                    <h1 className="indv-project__ctn-content-header">Alia</h1>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,

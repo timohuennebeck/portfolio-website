@@ -11,40 +11,42 @@ export default function AboutPage() {
         <>
             <div className="about">
                 <div className="about__ctn">
-                    <div className="about__ctn-content">
-                        <h1>About</h1>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                            commodo consequat.
-                        </p>
+                    <div className="about__ctn-left">
+                        <div className="about__ctn-left-content">
+                            <h1>About</h1>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+                                ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                                aliquip ex ea commodo consequat.
+                            </p>
+                        </div>
+                        <div className="about__ctn-left-featured">
+                            <FeatureElement number="1" element="+" name="Years of Experience" />
+                            <FeatureElement number="7" element="+" name="Successful Projects" />
+                        </div>
+                        <div className="about__ctn-left-btn">
+                            <div>
+                                <ButtonElement name="DOWNLOAD CV" />
+                            </div>
+                        </div>
                     </div>
-                    <div className="about__ctn-featured">
-                        <FeatureElement number="1" element="+" name="Years of Experience" />
-                        <FeatureElement number="7" element="+" name="Successful Projects" />
-                    </div>
-                    <div className="about__ctn-btn">
-                        <div>
+                    <div className="about__ctn-right">
+                        <ImageFrame img={microsoftImg} />
+                        <div className="about__ctn-right-btn">
                             <ButtonElement name="DOWNLOAD CV" />
                         </div>
                     </div>
                 </div>
-                <div className="about__img">
-                    <ImageFrame img={microsoftImg} />
-                    <div className="about__img-btn">
-                        <ButtonElement name="DOWNLOAD CV" />
-                    </div>
-                </div>
+                <LearnMoreField
+                    name="ABOUT ME"
+                    paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                />
+                <LearnMoreField
+                    name="ABOUT ME"
+                    paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                />
             </div>
-            <LearnMoreField
-                name="ABOUT ME"
-                paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-            />
-            <LearnMoreField
-                name="ABOUT ME"
-                paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-            />
         </>
     );
 }

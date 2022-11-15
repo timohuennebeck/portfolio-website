@@ -5,6 +5,10 @@
     padding: 0.35rem;
     border: $border-2px;
 
+    &:hover {
+        transform: rotate(5deg);
+    }
+
     &__border {
         @include flex-vertical;
         padding: 0.35rem;

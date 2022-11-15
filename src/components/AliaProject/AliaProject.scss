@@ -12,13 +12,18 @@
         &-content {
             @include flex-column;
             gap: 2.25rem;
+
+            &-header {
+                border-top: 5px solid white;
+                width: 4.5rem;
+            }
         }
 
         &-featured {
             @include flex-vertical;
             justify-content: space-between;
 
-            @include desktop {
+            @include tablet {
                 justify-content: flex-start;
             }
         }

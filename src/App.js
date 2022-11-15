@@ -9,7 +9,7 @@ function App() {
     return (
         <div className="app">
             {/* <IntroductionPage /> */}
-            {/* <ProjectsPage /> */}
+            <ProjectsPage />
             <AboutPage />
         </div>
     );

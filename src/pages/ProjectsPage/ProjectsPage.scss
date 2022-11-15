@@ -5,41 +5,50 @@
     @include flex-column;
     gap: 2.25rem;
 
-    @include desktop {
-        flex-direction: row;
-        gap: 10rem;
-    }
-
     &__ctn {
         @include flex-column;
         gap: 2.25rem;
 
-        &-content {
+        @include desktop {
+            flex-direction: row;
+            gap: 10rem;
+        }
+
+        &-left {
             @include flex-column;
             gap: 2.25rem;
-        }
 
-        &-featured {
-            @include flex-vertical;
-            justify-content: space-between;
-        }
+            &-content {
+                @include flex-column;
+                gap: 2.25rem;
+            }
 
-        &-btn {
-            display: none;
+            &-featured {
+                @include flex-vertical;
+                justify-content: space-between;
 
-            @include desktop {
-                display: flex;
+                @include tablet {
+                    justify-content: flex-start;
+                }
+            }
+
+            &-btn {
+                display: none;
+
+                @include desktop {
+                    display: flex;
+                }
             }
         }
-    }
 
-    &__img {
-        @include flex-column;
-        gap: 2.25rem;
+        &-right {
+            @include flex-column;
+            gap: 2.25rem;
 
-        &-btn {
-            @include desktop {
-                display: none;
+            &-btn {
+                @include desktop {
+                    display: none;
+                }
             }
         }
     }

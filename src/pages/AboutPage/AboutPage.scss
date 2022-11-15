@@ -5,20 +5,42 @@
     @include flex-column;
     gap: 2.25rem;
 
-    &__content,
-    &__learn-more {
-        @include flex-column;
-        gap: 2.25rem;
-    }
-
-    &__featured {
-        @include flex-vertical;
-        justify-content: space-between;
+    @include desktop {
+        flex-direction: row;
+        gap: 10rem;
     }
 
     &__ctn {
-        @include tablet {
-            display: flex;
+        @include flex-column;
+        gap: 2.25rem;
+
+        &-content {
+            @include flex-column;
+            gap: 2.25rem;
+        }
+
+        &-featured {
+            @include flex-vertical;
+            justify-content: space-between;
+        }
+
+        &-btn {
+            display: none;
+
+            @include desktop {
+                display: flex;
+            }
+        }
+    }
+
+    &__img {
+        @include flex-column;
+        gap: 2.25rem;
+
+        &-btn {
+            @include desktop {
+                display: none;
+            }
         }
     }
 }

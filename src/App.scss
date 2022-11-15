@@ -4,10 +4,11 @@
 .app {
     @include flex-column;
     gap: 4.75rem;
-    max-width: 47.25rem;
+    max-width: 42.5rem;
     margin: auto;
 
     @include desktop {
-        max-width: 100%;
+        max-width: 92.25rem;
+        margin: auto;
     }
 }

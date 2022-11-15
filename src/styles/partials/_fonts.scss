@@ -1,4 +1,5 @@
 @use "./mixins" as *;
+@use "./variables" as *;
 
 @font-face {
     font-family: "Titillium Web";
@@ -14,4 +15,9 @@
 
 * {
     font-family: "Titillium Web", sans-serif;
+    color: $prim-color-2;
+}
+
+p {
+    color: $sec-color-2;
 }

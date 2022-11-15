@@ -8,7 +8,7 @@ import ProjectsPage from "./pages/ProjectsPage/ProjectsPage";
 function App() {
     return (
         <div className="app">
-            {/* <IntroductionPage /> */}
+            <IntroductionPage />
             <ProjectsPage />
             <AboutPage />
         </div>

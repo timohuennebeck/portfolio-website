@@ -2,37 +2,65 @@
 @use "../../styles/partials/mixins" as *;
 
 .introduction {
-    @include flex-column;
-    gap: 2.25rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid white;
 
-    @include desktop {
-        flex-direction: row;
-    }
-
-    &__content {
+    &__sub {
         @include flex-column;
         gap: 2.25rem;
 
-        &-header {
-            width: 80%;
+        @include desktop {
+            flex-direction: row;
+            background-image: url("../../assets/images/profile-background.png");
+            background-size: cover;
+            height: 55rem;
+            align-items: center;
+            border-bottom: 2px solid white;
+        }
 
-            &-color {
-                color: $sec-color-1;
+        &-content {
+            @include flex-column;
+            gap: 2.25rem;
+
+            &-header {
+                width: 80%;
+
+                &-color {
+                    color: $sec-color-1;
+                }
+            }
+
+            &-paragraph {
+                @include desktop {
+                    width: 57.5%;
+                }
+            }
+
+            &-learn-more {
+                @include flex-column;
+                gap: 2.25rem;
+
+                @include desktop {
+                    gap: 10.25rem;
+                }
             }
         }
 
-        &-learn-more {
-            @include flex-column;
-            gap: 2.25rem;
-        }
-    }
-
-    &__ctn {
-        border-bottom: $border-2px;
-
-        &-img {
-            width: 100%;
+        &-ctn {
             border-bottom: $border-2px;
+
+            @include desktop {
+                border: none;
+            }
+
+            &-img {
+                width: 100%;
+                border-bottom: $border-2px;
+
+                @include desktop {
+                    display: none;
+                }
+            }
         }
     }
 }

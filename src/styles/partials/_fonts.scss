@@ -20,6 +20,10 @@
 
 h1 {
     font-size: 3.25rem;
+
+    @include desktop {
+        font-size: 4.25rem;
+    }
 }
 
 h2 {

@@ -13,7 +13,7 @@ export default function ProjectsPage() {
                 <div className="projects__ctn">
                     <div className="projects__ctn-left">
                         <div className="projects__ctn-left-content">
-                            <h1>Projects</h1>
+                            <h1 className="projects__ctn-left-content-header">Projects</h1>
                             <p>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim

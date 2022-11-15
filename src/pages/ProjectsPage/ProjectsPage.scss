@@ -5,6 +5,10 @@
     @include flex-column;
     gap: 2.25rem;
 
+    @include desktop {
+        gap: 10.25rem;
+    }
+
     &__ctn {
         @include flex-column;
         gap: 2.25rem;

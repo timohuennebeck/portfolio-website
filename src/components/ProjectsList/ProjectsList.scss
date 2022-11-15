@@ -3,4 +3,8 @@
 .projects-list {
     @include flex-column;
     gap: 2.25rem;
+
+    @include desktop {
+        gap: 10.25rem;
+    }
 }

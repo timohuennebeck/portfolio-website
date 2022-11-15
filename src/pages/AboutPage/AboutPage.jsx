@@ -38,14 +38,16 @@ export default function AboutPage() {
                         </div>
                     </div>
                 </div>
-                <LearnMoreField
-                    name="ABOUT ME"
-                    paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-                />
-                <LearnMoreField
-                    name="ABOUT ME"
-                    paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-                />
+                <div className="about__learn-more">
+                    <LearnMoreField
+                        name="ABOUT ME"
+                        paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                    />
+                    <LearnMoreField
+                        name="ABOUT ME"
+                        paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                    />
+                </div>
             </div>
         </>
     );

@@ -5,24 +5,51 @@
     @include flex-column;
     gap: 2.25rem;
 
-    &__content {
+    &__ctn {
         @include flex-column;
         gap: 2.25rem;
-    }
 
-    &__featured {
-        @include flex-vertical;
-        justify-content: space-between
+        &-content {
+            @include flex-column;
+            gap: 2.25rem;
+        }
+
+        &-featured {
+            @include flex-vertical;
+            justify-content: space-between;
+
+            @include desktop {
+                justify-content: flex-start;
+            }
+        }
+
+        &-buttons {
+            display: none;
+
+            @include desktop {
+                display: flex;
+                gap: 1.25rem;
+            }
+        }
     }
 
     &__images {
         @include flex-column;
         gap: $gap-mobile-cmp-default;
+
+        @include desktop {
+            flex-direction: row;
+            gap: 2.25rem;
+        }
     }
 
     &__buttons {
         @include flex-column;
         gap: $gap-mobile-cmp-default;
+
+        @include desktop {
+            display: none;
+        }
 
         &-github {
             @include flex-vertical;
@@ -30,8 +57,4 @@
             gap: $gap-mobile-cmp-default;
         }
     }
-}
-
-.width {
-    width: 100%;
 }

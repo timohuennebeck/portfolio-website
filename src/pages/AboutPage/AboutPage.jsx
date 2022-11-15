@@ -9,7 +9,7 @@ import LearnMoreField from "../../components/LearnMoreField/LearnMoreField";
 export default function AboutPage() {
     return (
         <>
-            <div className="about">
+            <div className="about" id="about">
                 <div className="about__ctn">
                     <div className="about__ctn-left">
                         <div className="about__ctn-left-content">

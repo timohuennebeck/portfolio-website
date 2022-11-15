@@ -1,0 +1,11 @@
+.nav-link {
+    &:hover {
+        transform: scale(1.05);
+        cursor: pointer;
+        font-weight: 700;
+    }
+
+    &__indv {
+        text-decoration: none;
+    }
+}

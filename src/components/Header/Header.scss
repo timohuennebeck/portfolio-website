@@ -1,0 +1,21 @@
+@use "../../styles/partials/mixins" as *;
+
+.header {
+    display: flex;
+
+    &__social {
+        @include flex-column;
+        gap: 0.5rem;
+        flex: 1 1 0;
+
+        &-linkedin {
+            width: 1.5rem;
+        }
+    }
+
+    &__links {
+        display: flex;
+        gap: 1.25rem;
+        flex: .5 1 0;
+    }
+}

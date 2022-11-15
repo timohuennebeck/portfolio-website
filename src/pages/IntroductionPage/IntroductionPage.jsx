@@ -2,10 +2,12 @@ import "./IntroductionPage.scss";
 
 import profileImg from "../../assets/images/portrait.png";
 import LearnMoreField from "../../components/LearnMoreField/LearnMoreField";
+import Header from "../../components/Header/Header";
 
 export default function IntroductionPage() {
     return (
-        <div className="introduction">
+        <div className="introduction" id="home">
+            <Header />
             <div className="introduction__sub">
                 <div className="introduction__sub-content">
                     <h1 className="introduction__sub-content-header">

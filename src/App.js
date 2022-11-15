@@ -1,14 +1,15 @@
 import "./App.scss";
-import LearnMoreField from "./components/LearnMoreField/LearnMoreField";
+
+// pages
+import IntroductionPage from "./pages/IntroductionPage/IntroductionPage";
+import ProjectsPage from "./pages/ProjectsPage/ProjectsPage";
 
 function App() {
     return (
-        <div>
-            <LearnMoreField
-                name="ABOUT ME"
-                paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-            />
-        </div>
+        <>
+            {/* <IntroductionPage /> */}
+            <ProjectsPage />
+        </>
     );
 }
 

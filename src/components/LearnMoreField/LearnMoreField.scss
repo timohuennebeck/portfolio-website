@@ -3,7 +3,7 @@
 
 .learn-more {
     @include flex-column;
-    gap: $gap-default;
+    gap: $gap-mobile-cmp-default;
     width: 75%;
 
     &__ctn {

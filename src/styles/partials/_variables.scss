@@ -3,12 +3,15 @@ $tablet-breakpoint: 768px;
 $desktop-breakpoint: 1280px;
 
 // colors
-$prim-color-1: #06141D;
-$prim-color-2: #FFF;
+$prim-color-1: #06141d;
+$prim-color-2: #fff;
 
-$sec-color-1: #065FE4;
-$sec-color-2: #8B8E93;
+$sec-color-1: #065fe4;
+$sec-color-2: #8b8e93;
 
-$border-2px: 2px solid $prim-color-2;
+$border-2px: 1px solid $prim-color-2;
 
-$gap-default: 1.25rem;
+$gap-mobile-cmp-default: 1.25rem;
+$gap-mobile-default: 2.75rem;
+
+$btn-padding-default: 0.5rem 1rem;

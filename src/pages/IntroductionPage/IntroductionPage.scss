@@ -1,0 +1,18 @@
+@use "../../styles/partials/variables" as *;
+
+.introduction {
+    &__content-header {
+        &-color {
+            color: $sec-color-1;
+        }
+    }
+
+    &__ctn {
+        border-bottom: $border-2px;
+
+        &-img {
+            width: 100%;
+            border-bottom: $border-2px;
+        }
+    }
+}

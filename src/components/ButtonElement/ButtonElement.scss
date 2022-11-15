@@ -1,0 +1,20 @@
+@use "../../styles/partials/variables" as *;
+@use "../../styles/partials/mixins" as *;
+
+.button {
+    @include flex;
+    border: $border-2px;
+    padding: $btn-padding-default;
+    border-radius: 1.75rem;
+    width: 100%;
+
+    &:hover {
+        cursor: pointer;
+        transform: scale(1.05);
+    }
+
+    &__link {
+        text-decoration: none;
+        font-weight: 700;
+    }
+}

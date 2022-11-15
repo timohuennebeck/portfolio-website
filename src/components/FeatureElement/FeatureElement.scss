@@ -1,0 +1,20 @@
+@use "../../styles/partials/mixins" as *;
+@use "../../styles/partials/variables" as *;
+
+.feature {
+    @include flex-vertical;
+    justify-content: center;
+    gap: $gap-mobile-cmp-default;
+
+    &__amount {
+        @include flex-vertical;
+
+        &-element {
+            color: $sec-color-1;
+        }
+    }
+
+    &__name {
+        width: 50%;
+    }
+}

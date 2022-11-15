@@ -1,0 +1,17 @@
+@use "../../styles/partials/variables" as *;
+@use "../../styles/partials/mixins" as *;
+
+.image-frame {
+    padding: 0.35rem;
+    border: $border-2px;
+
+    &__border {
+        @include flex-vertical;
+        padding: 0.35rem;
+        border: $border-2px;
+
+        &-img {
+            width: 100%;
+        }
+    }
+}

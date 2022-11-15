@@ -1,0 +1,6 @@
+@use "../../styles/partials/mixins" as *;
+
+.projects-list {
+    @include flex-column;
+    gap: 2.25rem;
+}

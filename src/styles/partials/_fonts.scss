@@ -1,0 +1,17 @@
+@use "./mixins" as *;
+
+@font-face {
+    font-family: "Titillium Web";
+    font-weight: 400;
+    src: url("../../assets/fonts/TitilliumWeb-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Titillium Web";
+    font-weight: 700;
+    src: url("../../assets/fonts/TitilliumWeb-Bold.ttf");
+}
+
+* {
+    font-family: "Titillium Web", sans-serif;
+}

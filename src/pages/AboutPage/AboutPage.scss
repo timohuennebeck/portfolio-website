@@ -1,0 +1,18 @@
+@use "../../styles/partials/variables" as *;
+@use "../../styles/partials/mixins" as *;
+
+.about {
+    @include flex-column;
+    gap: 2.25rem;
+
+    &__content,
+    &__learn-more {
+        @include flex-column;
+        gap: 2.25rem;
+    }
+
+    &__featured {
+        @include flex-vertical;
+        justify-content: space-between;
+    }
+}

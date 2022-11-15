@@ -6,8 +6,8 @@ import "./PortfolioWebsiteProject.scss";
 
 export default function PortfolioWebsiteProject() {
     return (
-        <div className="indv-project">
-            <div className="indv-project__content">
+        <div className="portfolio">
+            <div className="portfolio__content">
                 <h1>Personal Website</h1>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
@@ -15,21 +15,18 @@ export default function PortfolioWebsiteProject() {
                     nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                 </p>
             </div>
-            <div className="indv-project__featured">
+            <div className="portfolio__featured">
                 <FeatureElement name="Year of Experience" number="7" element="+" />
                 <FeatureElement name="Year of Experience" number="7" element="+" />
             </div>
-            <div className="indv-project__images">
+            <div className="portfolio__images">
                 <ImageFrame img={img} />
                 <ImageFrame img={img} />
                 <ImageFrame img={img} />
             </div>
-            <div className="indv-project__buttons">
-                <ButtonElement name="LIVE DEMO" backgroundColor="#FFF" fontColor="#000" />
-                <div className="indv-project__buttons-github">
-                    <ButtonElement name="GITHUB" />
-                    <ButtonElement name="FIGMA" />
-                </div>
+            <div className="portfolio__buttons">
+                <ButtonElement name="GITHUB" />
+                <ButtonElement name="FIGMA" />
             </div>
         </div>
     );

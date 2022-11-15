@@ -1,7 +1,7 @@
 @use "../../styles/partials/mixins" as *;
 @use "../../styles/partials/variables" as *;
 
-.indv-project {
+.portfolio {
     @include flex-column;
     gap: 2.25rem;
 
@@ -21,17 +21,7 @@
     }
 
     &__buttons {
-        @include flex-column;
+        @include flex-vertical;
         gap: $gap-mobile-cmp-default;
-
-        &-github {
-            @include flex-vertical;
-            width: 100%;
-            gap: $gap-mobile-cmp-default;
-        }
     }
-}
-
-.width {
-    width: 100%;
 }

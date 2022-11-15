@@ -1,7 +1,7 @@
 @use "../../styles/partials/mixins" as *;
 @use "../../styles/partials/variables" as *;
 
-.indv-project {
+.jarvis {
     @include flex-column;
     gap: 2.25rem;
 
@@ -12,7 +12,7 @@
 
     &__featured {
         @include flex-vertical;
-        justify-content: space-between
+        justify-content: space-between;
     }
 
     &__images {
@@ -30,8 +30,4 @@
             gap: $gap-mobile-cmp-default;
         }
     }
-}
-
-.width {
-    width: 100%;
 }

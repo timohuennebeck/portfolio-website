@@ -1,4 +1,5 @@
 import "./App.scss";
+import AboutPage from "./pages/AboutPage/AboutPage";
 
 // pages
 import IntroductionPage from "./pages/IntroductionPage/IntroductionPage";
@@ -6,10 +7,11 @@ import ProjectsPage from "./pages/ProjectsPage/ProjectsPage";
 
 function App() {
     return (
-        <>
-            {/* <IntroductionPage /> */}
+        <div className="app">
+            <IntroductionPage />
             <ProjectsPage />
-        </>
+            <AboutPage />
+        </div>
     );
 }
 

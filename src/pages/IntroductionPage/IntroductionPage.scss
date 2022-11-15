@@ -1,9 +1,23 @@
 @use "../../styles/partials/variables" as *;
+@use "../../styles/partials/mixins" as *;
 
 .introduction {
-    &__content-header {
-        &-color {
-            color: $sec-color-1;
+    @include flex-column;
+    gap: 2.25rem;
+
+    &__content {
+        @include flex-column;
+        gap: 2.25rem;
+
+        &-header {
+            &-color {
+                color: $sec-color-1;
+            }
+        }
+
+        &-learn-more {
+            @include flex-column;
+            gap: 2.25rem;
         }
     }
 

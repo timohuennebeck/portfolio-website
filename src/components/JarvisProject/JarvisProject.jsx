@@ -6,8 +6,8 @@ import "./JarvisProject.scss";
 
 export default function JarvisProject() {
     return (
-        <div className="indv-project">
-            <div className="indv-project__content">
+        <div className="jarvis">
+            <div className="jarvis__content">
                 <h1>Jarvis</h1>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
@@ -15,18 +15,18 @@ export default function JarvisProject() {
                     nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                 </p>
             </div>
-            <div className="indv-project__featured">
+            <div className="jarvis__featured">
                 <FeatureElement name="Year of Experience" number="7" element="+" />
                 <FeatureElement name="Year of Experience" number="7" element="+" />
             </div>
-            <div className="indv-project__images">
+            <div className="jarvis__images">
                 <ImageFrame img={img} />
                 <ImageFrame img={img} />
                 <ImageFrame img={img} />
             </div>
-            <div className="indv-project__buttons">
+            <div className="jarvis__buttons">
                 <ButtonElement name="LIVE DEMO" backgroundColor="#FFF" fontColor="#000" />
-                <div className="indv-project__buttons-github">
+                <div className="jarvis__buttons-github">
                     <ButtonElement name="GITHUB" />
                     <ButtonElement name="FIGMA" />
                 </div>

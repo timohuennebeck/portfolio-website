@@ -8,7 +8,8 @@ export default function IntroductionPage() {
         <div className="introduction">
             <div className="introduction__content">
                 <h1 className="introduction__content-header">
-                    I'm <span className="introduction__content-header-color">Timo</span>, a Full-Stack Developer
+                    I'm <span className="introduction__content-header-color">Timo</span>, a
+                    Full-Stack Developer
                 </h1>
                 <p className="introduction__content-paragraph">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
@@ -19,7 +20,7 @@ export default function IntroductionPage() {
             <div className="introduction__ctn">
                 <img className="introduction__ctn-img" src={profileImg} alt="profile" />
             </div>
-            <div>
+            <div className="introduction__content-learn-more">
                 <LearnMoreField
                     name="ABOUT ME"
                     paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."

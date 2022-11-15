@@ -8,8 +8,8 @@ export default function ProjectsList() {
     return (
         <div className="projects-list">
             <AliaProject />
-            <JarvisProject />
-            <PortfolioWebsiteProject />
+            {/* <JarvisProject /> */}
+            {/* <PortfolioWebsiteProject /> */}
         </div>
     );
 }

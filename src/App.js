@@ -8,8 +8,8 @@ import ProjectsPage from "./pages/ProjectsPage/ProjectsPage";
 function App() {
     return (
         <div className="app">
-            <IntroductionPage />
-            <ProjectsPage />
+            {/* <IntroductionPage /> */}
+            {/* <ProjectsPage /> */}
             <AboutPage />
         </div>
     );

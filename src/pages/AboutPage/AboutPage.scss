@@ -15,4 +15,10 @@
         @include flex-vertical;
         justify-content: space-between;
     }
+
+    &__ctn {
+        @include tablet {
+            display: flex;
+        }
+    }
 }

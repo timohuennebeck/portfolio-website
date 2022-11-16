@@ -3,7 +3,10 @@
 
 .introduction {
     padding-bottom: 0.5rem;
-    border-bottom: 2px solid white;
+
+    @include desktop {
+        border-bottom: 2px solid white;
+    }
 
     &__sub {
         @include flex-column;
@@ -42,6 +45,7 @@
 
                 @include desktop {
                     gap: 10.25rem;
+                    margin-bottom: 15rem;
                 }
             }
         }

@@ -27,8 +27,10 @@
                 gap: 2.25rem;
 
                 &-header {
-                    display: flex;
-                    justify-content: flex-end;
+                    @include desktop {
+                        display: flex;
+                        justify-content: flex-end;
+                    }
                 }
             }
 

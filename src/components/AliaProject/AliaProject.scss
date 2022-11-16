@@ -52,6 +52,10 @@
         @include flex-column;
         gap: $gap-mobile-cmp-default;
 
+        @include tablet {
+            flex-direction: row;
+        }
+
         @include desktop {
             display: none;
         }

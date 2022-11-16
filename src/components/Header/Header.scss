@@ -10,6 +10,11 @@
 
         &-linkedin {
             width: 1.5rem;
+
+            &:hover {
+                transform: scale(1.05);
+                cursor: pointer;
+            }
         }
     }
 

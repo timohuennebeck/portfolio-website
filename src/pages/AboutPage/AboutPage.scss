@@ -25,6 +25,13 @@
             &-content {
                 @include flex-column;
                 gap: 2.25rem;
+
+                &-header {
+                    @include desktop {
+                        display: flex;
+                        justify-content: flex-end;
+                    }
+                }
             }
 
             &-featured {

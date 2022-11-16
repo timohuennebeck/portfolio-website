@@ -13,7 +13,7 @@ export default function AboutPage() {
                 <div className="about__ctn">
                     <div className="about__ctn-left">
                         <div className="about__ctn-left-content">
-                            <h1>About</h1>
+                            <h1 className="about__ctn-left-content-header">About</h1>
                             <p>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim

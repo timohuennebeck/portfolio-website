@@ -97,5 +97,9 @@
     &__learn-more {
         @include flex-column;
         gap: 2.25rem;
+
+        @include desktop {
+            gap: 8.25rem;
+        }
     }
 }

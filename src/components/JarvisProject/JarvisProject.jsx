@@ -2,54 +2,57 @@ import ButtonElement from "../ButtonElement/ButtonElement";
 import FeatureElement from "../FeatureElement/FeatureElement";
 import ImageFrame from "../ImageFrame/ImageFrame";
 import img from "../../assets/images/microsoft-certificate.jpg";
-import "./AliaProject.scss";
+import "./JarvisProject.scss";
 
-export default function AliaProject() {
+export default function JarvisProject() {
     return (
-        <div className="alia">
-            <div className="alia__ctn">
-                <div className="alia__ctn-content">
-                    <h1 className="alia__ctn-content-header">Alia</h1>
+        <div className="jarvis">
+            <div className="jarvis__ctn">
+                <div className="jarvis__ctn-content">
+                    <h1 className="jarvis__ctn-content-header">Jarvis</h1>
                     <p>
-                        Alia, is the long-needed "internal" social media for companies to help
-                        employees build deeper relationships in a remote environment that will go
-                        beyond just work.
+                        Jarvis is a software that allows one to write personalized cover letters
+                        while decreasing the amount of manual work and margin of error, saving 5-
+                        10+ mins per cover letter, on average.
                     </p>
                 </div>
-                <div className="alia__ctn-featured">
+                <div className="jarvis__ctn-featured">
                     <FeatureElement name="Year of Experience" number="7" element="+" />
                     <FeatureElement name="Year of Experience" number="7" element="+" />
                 </div>
-                <div className="alia__ctn-buttons">
+                <div className="jarvis__ctn-buttons">
                     <div>
                         <ButtonElement name="LIVE DEMO" backgroundColor="#FFF" fontColor="#000" />
                     </div>
                     <div>
                         <ButtonElement
                             name="GITHUB"
-                            href="https://github.com/timohuennebeck/alia"
+                            href="https://github.com/timohuennebeck/jarvis-cap"
                         />
                     </div>
                     <div>
                         <ButtonElement
                             name="FIGMA"
-                            href="https://www.figma.com/file/VcHAeAbxy9oBoIYdIIOwVm/Alia-Internal-Social-Media?node-id=0%3A1&t=IKdbWntJnie2hYXF-0"
+                            href="https://www.figma.com/file/mRpcdBRlbhf98OkEfWMFLu/Jarvis-Cover-Letter-Automation?node-id=0%3A1&t=e89wXq3hOm90pS9C-0"
                         />
                     </div>
                 </div>
             </div>
-            <div className="alia__images">
+            <div className="jarvis__images">
                 <ImageFrame img={img} />
                 <ImageFrame img={img} />
                 <ImageFrame img={img} />
             </div>
-            <div className="alia__buttons">
+            <div className="jarvis__buttons">
                 <ButtonElement name="LIVE DEMO" backgroundColor="#FFF" fontColor="#000" />
-                <div className="alia__buttons-github">
-                    <ButtonElement name="GITHUB" href="https://github.com/timohuennebeck/alia" />
+                <div className="jarvis__buttons-github">
+                    <ButtonElement
+                        name="GITHUB"
+                        href="https://github.com/timohuennebeck/jarvis-cap"
+                    />
                     <ButtonElement
                         name="FIGMA"
-                        href="https://www.figma.com/file/VcHAeAbxy9oBoIYdIIOwVm/Alia-Internal-Social-Media?node-id=0%3A1&t=IKdbWntJnie2hYXF-0"
+                        href="https://www.figma.com/file/mRpcdBRlbhf98OkEfWMFLu/Jarvis-Cover-Letter-Automation?node-id=0%3A1&t=e89wXq3hOm90pS9C-0"
                     />
                 </div>
             </div>

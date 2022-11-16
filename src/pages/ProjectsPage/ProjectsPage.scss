@@ -42,25 +42,11 @@
                     justify-content: flex-start;
                 }
             }
-
-            &-btn {
-                display: none;
-
-                @include desktop {
-                    display: flex;
-                }
-            }
         }
 
         &-right {
             @include flex-column;
             gap: 2.25rem;
-
-            &-btn {
-                @include desktop {
-                    display: none;
-                }
-            }
         }
     }
 }

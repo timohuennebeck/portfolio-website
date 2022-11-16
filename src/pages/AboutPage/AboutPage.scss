@@ -48,6 +48,20 @@
 
                 @include desktop {
                     display: flex;
+
+                    &:hover {
+                        cursor: pointer;
+                        transform: scale(1.05);
+                    }
+                }
+
+                &-cv {
+                    border: $border-2px;
+                    padding: $btn-padding-default;
+                    border-radius: 1.75rem;
+                    width: 100%;
+                    font-weight: 700;
+                    text-decoration: none;
                 }
             }
         }
@@ -57,8 +71,24 @@
             gap: 2.25rem;
 
             &-btn {
+                text-align: center;
+
+                &:hover {
+                    cursor: pointer;
+                    transform: scale(1.05);
+                }
+
                 @include desktop {
                     display: none;
+                }
+
+                &-cv {
+                    border: $border-2px;
+                    padding: $btn-padding-default;
+                    border-radius: 1.75rem;
+                    font-weight: 700;
+                    display: block;
+                    text-decoration: none;
                 }
             }
         }

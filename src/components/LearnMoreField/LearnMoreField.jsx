@@ -1,6 +1,6 @@
 import "./LearnMoreField.scss";
 
-export default function LearnMoreField({ name, paragraph, link, href }) {
+export default function LearnMoreField({ name, paragraph, href }) {
     return (
         <div className="learn-more">
             <h4 className="learn-more__header">{name}</h4>

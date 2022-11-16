@@ -15,10 +15,10 @@ export default function IntroductionPage() {
                         <br /> Full-Stack Developer
                     </h1>
                     <p className="introduction__sub-content-paragraph">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                        consequat.
+                        Fast-learning, web development bootcamp graduate with a penchant for
+                        creating ‘problem-solving products’, with a background in e-commerce, and
+                        digital marketing. Developed a web application to semi-automate cover letter
+                        writing procedures, saving on avg. 5 - 10 mins. per application.
                     </p>
                 </div>
                 <div className="introduction__sub-ctn">
@@ -28,10 +28,12 @@ export default function IntroductionPage() {
                     <LearnMoreField
                         name="ABOUT ME"
                         paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                        href="#about"
                     />
                     <LearnMoreField
                         name="MY WORK"
                         paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                        href="#projects"
                     />
                 </div>
             </div>

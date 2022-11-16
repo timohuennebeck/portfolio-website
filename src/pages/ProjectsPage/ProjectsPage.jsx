@@ -25,18 +25,8 @@ export default function ProjectsPage() {
                             <FeatureElement number="1" element="+" name="Years of Experience" />
                             <FeatureElement number="7" element="+" name="Successful Projects" />
                         </div>
-                        <div className="projects__ctn-left-btn">
-                            <div>
-                                <ButtonElement name="DOWNLOAD CV" />
-                            </div>
-                        </div>
                     </div>
-                    <div className="projects__ctn-right">
-                        <ImageFrame img={microsoftImg} />
-                        <div className="projects__ctn-right-btn">
-                            <ButtonElement name="DOWNLOAD CV" />
-                        </div>
-                    </div>
+                    <ImageFrame img={microsoftImg} className="projects__ctn-right" />
                 </div>
                 <ProjectList />
             </div>

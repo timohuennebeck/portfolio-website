@@ -8,7 +8,12 @@ export default function ButtonElement({ href, name, backgroundColor, fontColor }
                 backgroundColor: `${backgroundColor}`,
             }}
         >
-            <a className="button__link" href={href} style={{ color: `${fontColor}` }}>
+            <a
+                className="button__link"
+                href={href}
+                target="_blank"
+                style={{ color: `${fontColor}` }}
+            >
                 {name}
             </a>
         </div>

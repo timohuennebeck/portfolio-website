@@ -5,6 +5,7 @@ import ImageFrame from "../../components/ImageFrame/ImageFrame";
 import microsoftImg from "../../assets/images/microsoft-certificate.jpg";
 import ButtonElement from "../../components/ButtonElement/ButtonElement";
 import LearnMoreField from "../../components/LearnMoreField/LearnMoreField";
+import resumePDF from "../../assets/documents/Timo-Huennebeck-Full-Stack-Developer-Resume.pdf";
 
 export default function AboutPage() {
     return (
@@ -27,14 +28,18 @@ export default function AboutPage() {
                         </div>
                         <div className="about__ctn-left-btn">
                             <div>
-                                <ButtonElement name="DOWNLOAD CV" />
+                                <a className="about__ctn-left-btn-cv" href={resumePDF} download>
+                                    DOWNLOAD CV
+                                </a>
                             </div>
                         </div>
                     </div>
                     <div className="about__ctn-right">
                         <ImageFrame img={microsoftImg} />
                         <div className="about__ctn-right-btn">
-                            <ButtonElement name="DOWNLOAD CV" />
+                            <a className="about__ctn-right-btn-cv" href={resumePDF} download>
+                                DOWNLOAD CV
+                            </a>
                         </div>
                     </div>
                 </div>

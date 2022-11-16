@@ -9,7 +9,7 @@ import ProjectList from "../../components/ProjectsList/ProjectsList";
 export default function ProjectsPage() {
     return (
         <>
-            <div className="projects" id="portfolio">
+            <div className="projects" id="projects">
                 <div className="projects__ctn">
                     <div className="projects__ctn-left">
                         <div className="projects__ctn-left-content">

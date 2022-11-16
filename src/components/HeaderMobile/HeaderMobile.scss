@@ -1,0 +1,25 @@
+@use "../../styles/partials/variables" as *;
+@use "../../styles/partials/mixins" as *;
+
+.header-mobile {
+    background-color: $prim-color-1;
+    color: #fff;
+    @include flex-column;
+    gap: 1.25rem;
+
+    &__svg {
+        &-img {
+            fill: #fff;
+
+            &:hover {
+                cursor: pointer;
+                transform: scale(1.125);
+            }
+        }
+    }
+
+    &__links {
+        @include flex-column;
+        gap: 1.25rem;
+    }
+}

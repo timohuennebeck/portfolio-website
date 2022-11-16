@@ -1,0 +1,33 @@
+@use "../../styles/partials/mixins" as *;
+@use "../../styles/partials/variables" as *;
+
+.nav-bar {
+    &__mobile {
+        fill: #fff;
+
+        &-svg {
+            &:hover {
+                cursor: pointer;
+                transform: scale(1.125);
+            }
+        }
+
+        @include desktop {
+            display: none;
+        }
+    }
+
+    &__desktop {
+        display: none;
+
+        @include desktop {
+            display: block;
+        }
+    }
+
+    &__card-modal {
+        padding: 1.25rem;
+        height: 100%;
+        background-color: $prim-color-1;
+    }
+}

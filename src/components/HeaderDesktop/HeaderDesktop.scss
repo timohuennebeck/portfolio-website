@@ -1,0 +1,32 @@
+@use "../../styles/partials/mixins" as *;
+
+.header-desktop {
+    display: flex;
+
+    &__social {
+        @include flex-column;
+        gap: 0.5rem;
+        flex: 1 1 0;
+
+        &-ctn {
+            &-linkedin {
+                display: inline-block;
+
+                &-img {
+                    width: 1.5rem;
+
+                    &:hover {
+                        transform: scale(1.125);
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+
+    &__links {
+        display: flex;
+        gap: 1.25rem;
+        flex: 0.5 1 0;
+    }
+}

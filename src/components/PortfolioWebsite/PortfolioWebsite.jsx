@@ -4,6 +4,10 @@ import ImageFrame from "../ImageFrame/ImageFrame";
 import img from "../../assets/images/microsoft-certificate.jpg";
 import "./PortfolioWebsite.scss";
 
+import portfolioWebsite1 from "../../assets/images/portfolio-website-1.jpg"
+import portfolioWebsite2 from "../../assets/images/portfolio-website-2.jpg"
+import portfolioWebsite3 from "../../assets/images/portfolio-website-3.jpg"
+
 export default function PortfolioWebsite() {
     return (
         <div className="portfolio-website">
@@ -40,9 +44,9 @@ export default function PortfolioWebsite() {
                 </div>
             </div>
             <div className="portfolio-website__images">
-                <ImageFrame img={img} />
-                <ImageFrame img={img} />
-                <ImageFrame img={img} />
+                <ImageFrame img={portfolioWebsite1} />
+                <ImageFrame img={portfolioWebsite2} />
+                <ImageFrame img={portfolioWebsite3} />
             </div>
             <div className="portfolio-website__buttons">
                 <ButtonElement name="LIVE DEMO" backgroundColor="#FFF" fontColor="#000" />

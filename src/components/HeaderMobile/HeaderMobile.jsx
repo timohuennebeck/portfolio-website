@@ -2,11 +2,9 @@ import "./HeaderMobile.scss";
 import NavLink from "../NavLink/NavLink";
 
 export default function HeaderMobile({ setModalIsOpen }) {
-
     function closeModal() {
         setModalIsOpen(false);
     }
-
 
     return (
         <div className="header-mobile" onClick={closeModal}>
@@ -25,6 +23,7 @@ export default function HeaderMobile({ setModalIsOpen }) {
                 <NavLink name="Home" href="#home" />
                 <NavLink name="About" href="#about" />
                 <NavLink name="Projects" href="#projects" />
+                <NavLink name="LinkedIn" href="https://www.linkedin.com/in/timo-huennebeck/" />
                 <NavLink name="Email" href="mailto:hello@timohuennebeck.com" />
             </div>
         </div>

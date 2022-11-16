@@ -1,8 +1,12 @@
+import "./AliaProject.scss";
+
 import ButtonElement from "../ButtonElement/ButtonElement";
 import FeatureElement from "../FeatureElement/FeatureElement";
 import ImageFrame from "../ImageFrame/ImageFrame";
 import img from "../../assets/images/microsoft-certificate.jpg";
-import "./AliaProject.scss";
+import alia1 from "../../assets/images/alia-1.jpg";
+import alia2 from "../../assets/images/alia-2.jpg";
+import alia3 from "../../assets/images/alia-3.jpg";
 
 export default function AliaProject() {
     return (
@@ -39,9 +43,9 @@ export default function AliaProject() {
                 </div>
             </div>
             <div className="alia__images">
-                <ImageFrame img={img} />
-                <ImageFrame img={img} />
-                <ImageFrame img={img} />
+                <ImageFrame img={alia1} />
+                <ImageFrame img={alia2} />
+                <ImageFrame img={alia3} />
             </div>
             <div className="alia__buttons">
                 <ButtonElement name="LIVE DEMO" backgroundColor="#FFF" fontColor="#000" />

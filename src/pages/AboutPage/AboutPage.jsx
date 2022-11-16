@@ -16,10 +16,10 @@ export default function AboutPage() {
                         <div className="about__ctn-left-content">
                             <h1 className="about__ctn-left-content-header">About</h1>
                             <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-                                ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                                aliquip ex ea commodo consequat.
+                                I'm a German Full-Stack Developer who'll be moving to Melbourne,
+                                Australia in January 2023! When I'm not working (and not practicing
+                                tennis, of course!) I like to go surfing, jump through the clouds
+                                (skydiving) or put my Spanish to practice. Hola, qué tal?!
                             </p>
                         </div>
                         <div className="about__ctn-left-featured">
@@ -45,12 +45,14 @@ export default function AboutPage() {
                 </div>
                 <div className="about__learn-more">
                     <LearnMoreField
-                        name="ABOUT ME"
-                        paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                        name="EDUCATION"
+                        paragraph="Please go ahead and either download my CV or checkout my LinkedIn to find out more about me. Let's connect!"
+                        href="https://www.linkedin.com/in/timo-huennebeck/"
                     />
                     <LearnMoreField
-                        name="ABOUT ME"
-                        paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                        name="LANGUAGES"
+                        paragraph="I'd call myself intermediate in the following languages: JavaScript [Vanilla, React.js], HTML, CSS [SCSS] as well as Node.js, Express.js, Web APIs, User Authentication, OAuth, MySQL. I also have some beginner knowledge in TypeScript and Next.js, which I just started teaching myself."
+                        href="https://www.linkedin.com/in/timo-huennebeck/"
                     />
                 </div>
             </div>

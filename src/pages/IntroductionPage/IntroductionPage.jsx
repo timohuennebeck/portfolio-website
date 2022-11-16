@@ -32,7 +32,7 @@ export default function IntroductionPage() {
                     />
                     <LearnMoreField
                         name="MY WORK"
-                        paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                        paragraph="When I'm working on a project I need to find its purpose of it. Whether it be solving an existing problem in the market, helping out communities or else. Don't be shy and have a look at my work from the past couple of months!"
                         href="#projects"
                     />
                 </div>

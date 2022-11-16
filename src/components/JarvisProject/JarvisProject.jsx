@@ -1,8 +1,13 @@
+import "./JarvisProject.scss";
+
 import ButtonElement from "../ButtonElement/ButtonElement";
 import FeatureElement from "../FeatureElement/FeatureElement";
 import ImageFrame from "../ImageFrame/ImageFrame";
 import img from "../../assets/images/microsoft-certificate.jpg";
-import "./JarvisProject.scss";
+import jarvisImg1 from "../../assets/images/jarvis-1.jpg"
+import jarvisImg2 from "../../assets/images/jarvis-2.jpg"
+import jarvisImg3 from "../../assets/images/jarvis-3.jpg"
+
 
 export default function JarvisProject() {
     return (
@@ -39,9 +44,9 @@ export default function JarvisProject() {
                 </div>
             </div>
             <div className="jarvis__images">
-                <ImageFrame img={img} />
-                <ImageFrame img={img} />
-                <ImageFrame img={img} />
+                <ImageFrame img={jarvisImg1} />
+                <ImageFrame img={jarvisImg2} />
+                <ImageFrame img={jarvisImg3} />
             </div>
             <div className="jarvis__buttons">
                 <ButtonElement name="LIVE DEMO" backgroundColor="#FFF" fontColor="#000" />

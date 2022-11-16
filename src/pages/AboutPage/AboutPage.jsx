@@ -6,6 +6,7 @@ import microsoftImg from "../../assets/images/microsoft-certificate.jpg";
 import ButtonElement from "../../components/ButtonElement/ButtonElement";
 import LearnMoreField from "../../components/LearnMoreField/LearnMoreField";
 import resumePDF from "../../assets/documents/Timo-Huennebeck-Full-Stack-Developer-Resume.pdf";
+import brainstationImg from "../../assets/images/brainstation.jpg"
 
 export default function AboutPage() {
     return (
@@ -23,8 +24,8 @@ export default function AboutPage() {
                             </p>
                         </div>
                         <div className="about__ctn-left-featured">
-                            <FeatureElement number="1" element="+" name="Years of Experience" />
-                            <FeatureElement number="7" element="+" name="Successful Projects" />
+                            <FeatureElement number="0.5" element="+" name="Years of Experience" />
+                            <FeatureElement number="915" element="+" name="Hours Invested Into Web Development" />
                         </div>
                         <div className="about__ctn-left-btn">
                             <div>
@@ -35,7 +36,7 @@ export default function AboutPage() {
                         </div>
                     </div>
                     <div className="about__ctn-right">
-                        <ImageFrame img={microsoftImg} />
+                        <ImageFrame img={brainstationImg} />
                         <div className="about__ctn-right-btn">
                             <a className="about__ctn-right-btn-cv" href={resumePDF} download>
                                 DOWNLOAD CV

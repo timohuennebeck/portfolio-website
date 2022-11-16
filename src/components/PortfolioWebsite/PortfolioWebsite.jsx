@@ -22,8 +22,8 @@ export default function PortfolioWebsite() {
                     </p>
                 </div>
                 <div className="portfolio-website__ctn-featured">
-                    <FeatureElement name="Year of Experience" number="7" element="+" />
-                    <FeatureElement name="Year of Experience" number="7" element="+" />
+                    <FeatureElement name="Days Left Until Launch" number="0" element="+" />
+                    <FeatureElement name="Hours Invested" number="15" element="+" />
                 </div>
                 <div className="portfolio-website__ctn-buttons">
                     <div>

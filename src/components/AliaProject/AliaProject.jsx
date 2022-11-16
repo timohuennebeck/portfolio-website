@@ -21,8 +21,8 @@ export default function AliaProject() {
                     </p>
                 </div>
                 <div className="alia__ctn-featured">
-                    <FeatureElement name="Year of Experience" number="7" element="+" />
-                    <FeatureElement name="Year of Experience" number="7" element="+" />
+                <FeatureElement name="Days Left Until Alpha Version" number="25" element="+" />
+                    <FeatureElement name="Hours Invested" number="18" element="+" />
                 </div>
                 <div className="alia__ctn-buttons">
                     <div>

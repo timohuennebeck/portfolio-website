@@ -15,18 +15,22 @@ export default function ProjectsPage() {
                         <div className="projects__ctn-left-content">
                             <h1 className="projects__ctn-left-content-header">Projects</h1>
                             <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-                                ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                                aliquip ex ea commodo consequat.
+                                In this section, you can find a couple of projects that I've
+                                accumulated over the past couple of months. These include a personal
+                                website (which you are on right now), as well as a cover letter
+                                automation tool and internal social media application. If you'd like
+                                to get access to the bootcamp projects as well, please reach out to
+                                me.
                             </p>
                         </div>
                         <div className="projects__ctn-left-featured">
-                            <FeatureElement number="1" element="+" name="Years of Experience" />
-                            <FeatureElement number="7" element="+" name="Successful Projects" />
+                            <FeatureElement number="0.5" element="+" name="Years of Experience" />
+                            <FeatureElement number="8" element="+" name="Successful Projects" />
                         </div>
                     </div>
-                    <ImageFrame img={microsoftImg} className="projects__ctn-right" />
+                    <div className="projects__ctn-right">
+                        <ImageFrame img={microsoftImg} />
+                    </div>
                 </div>
                 <ProjectList />
             </div>

@@ -30,7 +30,7 @@ export default function AboutPage() {
                         <div className="about__ctn-left-btn">
                             <div>
                                 <a className="about__ctn-left-btn-cv" href={resumePDF} download>
-                                    DOWNLOAD CV
+                                    DOWNLOAD RESUME
                                 </a>
                             </div>
                         </div>
@@ -39,7 +39,7 @@ export default function AboutPage() {
                         <ImageFrame img={brainstationImg} />
                         <div className="about__ctn-right-btn">
                             <a className="about__ctn-right-btn-cv" href={resumePDF} download>
-                                DOWNLOAD CV
+                                DOWNLOAD RESUME
                             </a>
                         </div>
                     </div>

@@ -27,7 +27,7 @@ export default function JarvisProject() {
                 </div>
                 <div className="jarvis__ctn-buttons">
                     <div>
-                        <ButtonElement name="LIVE DEMO" backgroundColor="#FFF" fontColor="#000" />
+                        <ButtonElement name="LIVE DEMO" href="https://jarvis-capstone.herokuapp.com" backgroundColor="#FFF" fontColor="#000" />
                     </div>
                     <div>
                         <ButtonElement

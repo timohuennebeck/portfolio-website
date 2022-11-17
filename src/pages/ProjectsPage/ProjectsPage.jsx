@@ -3,7 +3,6 @@ import "./ProjectsPage.scss";
 import FeatureElement from "../../components/FeatureElement/FeatureElement";
 import ImageFrame from "../../components/ImageFrame/ImageFrame";
 import microsoftImg from "../../assets/images/microsoft-certificate.jpg";
-import ButtonElement from "../../components/ButtonElement/ButtonElement";
 import ProjectList from "../../components/ProjectsList/ProjectsList";
 
 export default function ProjectsPage() {

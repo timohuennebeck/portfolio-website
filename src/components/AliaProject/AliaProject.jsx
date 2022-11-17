@@ -21,12 +21,17 @@ export default function AliaProject() {
                     </p>
                 </div>
                 <div className="alia__ctn-featured">
-                <FeatureElement name="Days Left Until Alpha Version" number="25" element="+" />
+                    <FeatureElement name="Days Left Until Alpha Version" number="25" element="+" />
                     <FeatureElement name="Hours Invested" number="18" element="+" />
                 </div>
                 <div className="alia__ctn-buttons">
                     <div>
-                        <ButtonElement name="LIVE DEMO" backgroundColor="#FFF" fontColor="#000" />
+                        <ButtonElement
+                            name="LIVE DEMO"
+                            href="https://alia-internal-social-media.herokuapp.com/"
+                            backgroundColor="#FFF"
+                            fontColor="#000"
+                        />
                     </div>
                     <div>
                         <ButtonElement
@@ -48,7 +53,12 @@ export default function AliaProject() {
                 <ImageFrame img={alia3} />
             </div>
             <div className="alia__buttons">
-                <ButtonElement name="LIVE DEMO" backgroundColor="#FFF" fontColor="#000" />
+                <ButtonElement
+                    name="LIVE DEMO"
+                    href="https://alia-internal-social-media.herokuapp.com/"
+                    backgroundColor="#FFF"
+                    fontColor="#000"
+                />
                 <div className="alia__buttons-github">
                     <ButtonElement name="GITHUB" href="https://github.com/timohuennebeck/alia" />
                     <ButtonElement

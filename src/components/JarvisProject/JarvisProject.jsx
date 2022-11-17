@@ -4,10 +4,9 @@ import ButtonElement from "../ButtonElement/ButtonElement";
 import FeatureElement from "../FeatureElement/FeatureElement";
 import ImageFrame from "../ImageFrame/ImageFrame";
 import img from "../../assets/images/microsoft-certificate.jpg";
-import jarvisImg1 from "../../assets/images/jarvis-1.jpg"
-import jarvisImg2 from "../../assets/images/jarvis-2.jpg"
-import jarvisImg3 from "../../assets/images/jarvis-3.jpg"
-
+import jarvisImg1 from "../../assets/images/jarvis-1.jpg";
+import jarvisImg2 from "../../assets/images/jarvis-2.jpg";
+import jarvisImg3 from "../../assets/images/jarvis-3.jpg";
 
 export default function JarvisProject() {
     return (
@@ -27,7 +26,12 @@ export default function JarvisProject() {
                 </div>
                 <div className="jarvis__ctn-buttons">
                     <div>
-                        <ButtonElement name="LIVE DEMO" href="https://jarvis-capstone.herokuapp.com" backgroundColor="#FFF" fontColor="#000" />
+                        <ButtonElement
+                            name="LIVE DEMO"
+                            href="https://jarvis-capstone.herokuapp.com"
+                            backgroundColor="#FFF"
+                            fontColor="#000"
+                        />
                     </div>
                     <div>
                         <ButtonElement
@@ -49,7 +53,12 @@ export default function JarvisProject() {
                 <ImageFrame img={jarvisImg3} />
             </div>
             <div className="jarvis__buttons">
-                <ButtonElement name="LIVE DEMO" backgroundColor="#FFF" fontColor="#000" />
+                <ButtonElement
+                    name="LIVE DEMO"
+                    href="https://jarvis-capstone.herokuapp.com"
+                    backgroundColor="#FFF"
+                    fontColor="#000"
+                />
                 <div className="jarvis__buttons-github">
                     <ButtonElement
                         name="GITHUB"

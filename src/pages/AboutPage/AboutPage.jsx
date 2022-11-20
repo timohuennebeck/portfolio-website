@@ -47,7 +47,7 @@ export default function AboutPage() {
                 <div className="about__learn-more">
                     <LearnMoreField
                         name="EDUCATION"
-                        paragraph="Please go ahead and either download my CV or checkout my LinkedIn to find out more about me. Let's connect!"
+                        paragraph="Please go ahead and either download my resume or checkout my LinkedIn to find out more about me. Let's connect!"
                         href="https://www.linkedin.com/in/timo-huennebeck/"
                     />
                     <LearnMoreField

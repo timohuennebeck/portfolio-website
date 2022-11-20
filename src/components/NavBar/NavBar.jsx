@@ -39,7 +39,7 @@ export default function NavBar() {
                 onRequestClose={closeModal}
                 className="nav-bar__card-modal"
             >
-                <HeaderMobile setModalIsOpen={setModalIsOpen}/>
+                <HeaderMobile setModalIsOpen={setModalIsOpen} />
             </ReactModal>
         </div>
     );

@@ -5,7 +5,7 @@ import ImageFrame from "../../components/ImageFrame/ImageFrame";
 import microsoftImg from "../../assets/images/microsoft-certificate.jpg";
 import ButtonElement from "../../components/ButtonElement/ButtonElement";
 import LearnMoreField from "../../components/LearnMoreField/LearnMoreField";
-import resumePDF from "../../assets/documents/Timo-Huennebeck-Full-Stack-Developer-Resume.pdf";
+import resumePDF from "../../assets/documents/Timo-Huennebeck-Front-End-Developer-Resume.pdf";
 import brainstationImg from "../../assets/images/brainstation.jpg"
 
 export default function AboutPage() {
@@ -17,8 +17,8 @@ export default function AboutPage() {
                         <div className="about__ctn-left-content">
                             <h1 className="about__ctn-left-content-header">About</h1>
                             <p>
-                                I'm a German Full-Stack Developer who'll be moving to Melbourne,
-                                Australia in January 2023! When I'm not working (and not practicing
+                                I'm a German Front End Developer who'll be moving to Melbourne,
+                                Australia in Jan. 2023! When I'm not working (and not practicing
                                 tennis, of course!) I like to go surfing, jump through the clouds
                                 (skydiving) or put my Spanish to practice. Hola, qué tal?!
                             </p>

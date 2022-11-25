@@ -2,7 +2,7 @@
 
 Personal website with a minimalistic design showcasing the most up-to-date projects with their corresponding demos. Here, you'll be able to find my current projects, as well as the ones from the past couple of months.
 
-![image](./portfolio-cover.jpg)
+![portfolio-demo](https://user-images.githubusercontent.com/107037151/203959158-7bcbd2f3-5490-44ca-ac70-c37f18929427.gif)
 
 ## `Installing The Portfolio Website`
 

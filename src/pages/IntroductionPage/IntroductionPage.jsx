@@ -13,7 +13,6 @@ export default function IntroductionPage() {
                     <h1 className="introduction__sub-content-header">
                         I'm <span className="introduction__sub-content-header-color">Timo</span>, a
                         <br /> Front End Developer
-                        <br /> Front End Developer
                     </h1>
                     <p className="introduction__sub-content-paragraph">
                         I'm a German Front End Developer who was borned and raised in Cologne, GER -

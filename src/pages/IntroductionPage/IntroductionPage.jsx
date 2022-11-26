@@ -27,7 +27,7 @@ export default function IntroductionPage() {
                 <div className="introduction__sub-content-learn-more">
                     <LearnMoreField
                         name="ABOUT ME"
-                        paragraph="I am a passionate web developer who loves to solve problems and create innovative solutions who's always looking for new challenges and thrive in environments where I can learn new things."
+                        paragraph="I am a passionate Front End Developer who loves solving problems and create innovative solutions who's always looking for new challenges and thrive in environments where I can learn new things."
                         href="#about"
                     />
                     <LearnMoreField

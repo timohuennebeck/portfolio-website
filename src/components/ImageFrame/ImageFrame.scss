@@ -5,8 +5,15 @@
     padding: 0.35rem;
     border: $border-2px;
 
-    &:hover {
-        transform: rotate(5deg);
+    @include desktop {
+        &:hover {
+            cursor: pointer;
+            transform: rotate(5deg);
+        }
+
+        &:active {
+            transform: rotate(0deg)
+        }
     }
 
     &__border {

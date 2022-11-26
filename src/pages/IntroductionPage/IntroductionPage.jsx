@@ -13,12 +13,17 @@ export default function IntroductionPage() {
                     <h1 className="introduction__sub-content-header">
                         I'm <span className="introduction__sub-content-header-color">Timo</span>, a
                         <br /> Front End Developer
+                        <br /> Front End Developer
                     </h1>
                     <p className="introduction__sub-content-paragraph">
-                        Fast-learning, web development bootcamp graduate with a penchant for
-                        creating ‘problem-solving products’, with a background in e-commerce, and
-                        digital marketing. Developed a web application to semi-automate cover letter
-                        writing procedures, saving on avg. 5 - 10 mins. per application.
+                        I'm a German Front End Developer who was borned and raised in Cologne, GER -
+                        living in Melbourne, AUS!
+                    </p>
+                    <p className="introduction__sub-content-paragraph">
+                        I'm also an automation enthusiast and attempt to automate whatever possible.
+                        Whether it be using Google Home to turn on the lights the moment I get home,
+                        or using Zapier to connect Trello and LinkedIn to populate a new card with
+                        the users information whenever I get a new LinkedIn message!
                     </p>
                 </div>
                 <div className="introduction__sub-ctn">
@@ -27,12 +32,12 @@ export default function IntroductionPage() {
                 <div className="introduction__sub-content-learn-more">
                     <LearnMoreField
                         name="ABOUT ME"
-                        paragraph="I am a passionate Front End Developer who loves solving problems and create innovative solutions who's always looking for new challenges and thrive in environments where I can learn new things."
+                        paragraph="I'm a design-oriented marketer turned Full-Stack Developer who loves striking a balance between functional and aesthetic designs - though I tend to be more front-end oriented!"
                         href="#about"
                     />
                     <LearnMoreField
                         name="MY WORK"
-                        paragraph="When I'm working on a project I need to find its purpose of it. Whether it be solving an existing problem in the market, helping out communities or else. Don't be shy and have a look at my work from the past couple of months!"
+                        paragraph="I have a proven track record and hands-on experience coding websites and applications both with front-end and back-end related languages - including react.js, node.js, express.js, knex.js and more."
                         href="#projects"
                     />
                 </div>

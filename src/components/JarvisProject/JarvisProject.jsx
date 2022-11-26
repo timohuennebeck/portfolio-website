@@ -3,7 +3,6 @@ import "./JarvisProject.scss";
 import ButtonElement from "../ButtonElement/ButtonElement";
 import FeatureElement from "../FeatureElement/FeatureElement";
 import ImageFrame from "../ImageFrame/ImageFrame";
-import img from "../../assets/images/microsoft-certificate.jpg";
 import jarvisImg1 from "../../assets/images/jarvis-1.jpg";
 import jarvisImg2 from "../../assets/images/jarvis-2.jpg";
 import jarvisImg3 from "../../assets/images/jarvis-3.jpg";
@@ -15,10 +14,12 @@ export default function JarvisProject() {
                 <div className="jarvis__ctn-content">
                     <h1 className="jarvis__ctn-content-header">Jarvis</h1>
                     <p>
-                        Jarvis is a software that allows one to write personalized cover letters
-                        while decreasing the amount of manual work and margin of error, saving 5-
-                        10+ mins per cover letter, on average.
+                        Finding a job can be time-consuming and stressful! Jarvis aims to solve this
+                        problem - allowing users to track the status of their job application and
+                        create personalised cover letters all while saving 5 - 10min. per
+                        application.
                     </p>
+                    <p>It's time to put an end to the stress of searching for jobs!</p>
                 </div>
                 <div className="jarvis__ctn-featured">
                     <FeatureElement name="Days Left Until Beta Version" number="10" element="+" />
@@ -48,9 +49,15 @@ export default function JarvisProject() {
                 </div>
             </div>
             <div className="jarvis__images">
-                <ImageFrame img={jarvisImg1} />
-                <ImageFrame img={jarvisImg2} />
-                <ImageFrame img={jarvisImg3} />
+                <div className="jarvis__images-left">
+                    <ImageFrame img={jarvisImg1} />
+                </div>
+                <div className="jarvis__images-middle">
+                    <ImageFrame img={jarvisImg2} />
+                </div>
+                <div className="jarvis__images-right">
+                    <ImageFrame img={jarvisImg3} />
+                </div>
             </div>
             <div className="jarvis__buttons">
                 <ButtonElement

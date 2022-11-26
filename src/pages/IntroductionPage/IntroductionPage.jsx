@@ -15,10 +15,14 @@ export default function IntroductionPage() {
                         <br /> Front End Developer
                     </h1>
                     <p className="introduction__sub-content-paragraph">
-                        Fast-learning, web development bootcamp graduate with a penchant for
-                        creating ‘problem-solving products’, with a background in e-commerce, and
-                        digital marketing. Developed a web application to semi-automate cover letter
-                        writing procedures, saving on avg. 5 - 10 mins. per application.
+                        I'm a German Front End Developer who was borned and raised in Cologne, GER -
+                        living in Melbourne, AUS!
+                    </p>
+                    <p className="introduction__sub-content-paragraph">
+                        I'm also an automation enthusiast and attempt to automate whatever possible.
+                        Whether it be using Google Home to turn on the lights the moment I get home,
+                        or using Zapier to connect Trello and LinkedIn to populate a new card with
+                        the users information whenever I get a new LinkedIn message!
                     </p>
                 </div>
                 <div className="introduction__sub-ctn">

@@ -1,7 +1,7 @@
 @use "../../styles/partials/mixins" as *;
 @use "../../styles/partials/variables" as *;
 
-.portfolio-website {
+.instock {
     @include flex-column;
     gap: 2.25rem;
 
@@ -45,6 +45,29 @@
         @include desktop {
             flex-direction: row;
             gap: 2.25rem;
+
+            &-left {
+                &:active {
+                    transform: scale(2.25);
+                    position: relative;
+                    left: 25%;
+                }
+            }
+
+            &-middle {
+                &:active {
+                    transform: scale(2.25);
+                    position: relative;
+                }
+            }
+
+            &-right {
+                &:active {
+                    transform: scale(2.25);
+                    position: relative;
+                    right: 25%;
+                }
+            }
         }
     }
 

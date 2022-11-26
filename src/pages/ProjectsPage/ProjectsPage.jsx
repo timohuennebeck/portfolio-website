@@ -15,12 +15,16 @@ export default function ProjectsPage() {
                         <div className="projects__ctn-left-content">
                             <h1 className="projects__ctn-left-content-header">Projects</h1>
                             <p>
-                                In this section, you can find a couple of projects that I've
-                                accumulated over the past couple of months. These include a personal
-                                website (which you are on right now), as well as a cover letter
-                                automation tool and internal social media application. If you'd like
-                                to get access to the bootcamp projects as well, please reach out to
-                                me.
+                                In this section, one can find a well thoughout selection of projects
+                                that I've accumulated over the past 15 weeks! This includes a CRM
+                                platform that allows users to track the status of their job
+                                applications while helping to personalise their resumes and cover
+                                letters.
+                            </p>
+                            <p>
+                                Furthermore, an internal social media platform that makes remote
+                                work feel like being in the same room, and a stock management
+                                software for warehouses and their corresponding inventories.
                             </p>
                         </div>
                         <div className="projects__ctn-left-featured">
@@ -29,7 +33,9 @@ export default function ProjectsPage() {
                         </div>
                     </div>
                     <div className="projects__ctn-right">
-                        <ImageFrame img={microsoftImg} />
+                        <div className="projects__ctn-right-img">
+                            <ImageFrame img={microsoftImg} />
+                        </div>
                     </div>
                 </div>
                 <ProjectList />

@@ -70,6 +70,16 @@
             @include flex-column;
             gap: 2.25rem;
 
+            &-img {
+                @include desktop {
+                    &:active {
+                        transform: scale(1.325);
+                        position: relative;
+                        right: 42.5%;
+                    }
+                }
+            }
+
             &-btn {
                 text-align: center;
 

@@ -17,8 +17,8 @@ export default function AboutPage() {
                         <div className="about__ctn-left-content">
                             <h1 className="about__ctn-left-content-header">About</h1>
                             <p>
-                                I'm a German Front End Developer who'll be moving to Melbourne,
-                                Australia in the beginning of 2023!
+                                I'm a German Front End Developer who was borned and raised in
+                                Cologne, GER - living in Melbourne, AUS!
                             </p>
                             <p>
                                 P.S. When I'm not coding I love to practice tennis which I've

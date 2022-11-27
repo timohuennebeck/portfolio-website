@@ -1,17 +1,13 @@
 @use "../../styles/partials/mixins" as *;
+@use "../../styles/partials/variables" as *;
 
 .header-desktop {
     display: flex;
-    max-width: 92.25rem;
-    margin: auto;
 
     &__links {
         display: flex;
         gap: 1.25rem;
-        flex: 0.5 1 0;
         list-style-type: none;
-        position: relative;
-        left: -0.5rem;
 
         &-linkedin {
             text-decoration: none;

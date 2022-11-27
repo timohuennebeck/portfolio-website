@@ -13,8 +13,8 @@ export default function IntroductionPage() {
             <div className="introduction__sub">
                 <div className="introduction__sub-content">
                     <h1 className="introduction__sub-content-header">
-                        I'm <span className="introduction__sub-content-header-color">Timo</span>, a
-                        <br /> Front End Developer
+                        I'm <span className="introduction__sub-content-header-color">Timo</span>,
+                        <br />a Front End Developer
                     </h1>
                     <p className="introduction__sub-content-paragraph">
                         I'm a German Front End Developer who was borned and raised in Cologne, GER -

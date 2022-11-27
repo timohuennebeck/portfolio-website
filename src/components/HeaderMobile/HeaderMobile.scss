@@ -6,6 +6,8 @@
     color: #fff;
     @include flex-column;
     gap: 1.25rem;
+    max-width: 42.5rem;
+    margin: auto;
 
     &__svg {
         &-img {

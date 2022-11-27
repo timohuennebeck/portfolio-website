@@ -13,7 +13,7 @@ export default function AliaProject() {
         <div className="alia">
             <div className="alia__ctn">
                 <div className="alia__ctn-content">
-                    <h1 className="alia__ctn-content-header">Alia</h1>
+                    <h3 className="alia__ctn-content-header">Alia</h3>
                     <p>
                         Moving from a traditional to a remote working environment can be
                         frustrating, but it doesn't have to be!
@@ -77,6 +77,26 @@ export default function AliaProject() {
                         href="https://www.figma.com/file/VcHAeAbxy9oBoIYdIIOwVm/Alia-Internal-Social-Media?node-id=0%3A1&t=IKdbWntJnie2hYXF-0"
                     />
                 </div>
+            </div>
+            <div className="alia__tech-stack">
+                <h4>Tech Stack</h4>
+                <p>
+                    This full-stack react app uses SASS on the front-end allowing me to develop a
+                    minimal viable product faster while ensuring a consistent design throughout. For
+                    the backe-end I decided to use Node.js and Express.js to create a REST API
+                    allowing me to connect it to the front-end using axios to handle user accounts,
+                    comments, hubs data, upcoming meetings / events.
+                </p>
+                <p>
+                    Alia uses Knex.js to create a relational database which is used to connect users
+                    with their corresponding posts, comments and hubs. To implement verification and
+                    authorization to prohibit unwanted user access, oauth was used.
+                </p>
+                <p>
+                    P.S. Alia will experience code refactoring until the 31st of December.
+                    Exchanging existing JS code for TS one making it more readable, modular and
+                    performant.
+                </p>
             </div>
         </div>
     );

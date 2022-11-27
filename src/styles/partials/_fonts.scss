@@ -27,10 +27,33 @@ h1 {
 }
 
 h2 {
-    font-size: 2.75rem;
+    font-size: 3.25rem;
+
+    @include desktop {
+        font-size: 4.25rem;
+    }
 }
 
+h3 {
+    font-size: 3.25rem;
+
+    @include desktop {
+        font-size: 4.25rem;
+    }
+}
+
+h4 {
+    font-size: 1.5rem;
+
+    @include desktop {
+        font-size: 1.75rem;
+    }
+}
 
 p {
     color: $sec-color-2;
+
+    @include desktop {
+        font-size: 1.05rem;
+    }
 }

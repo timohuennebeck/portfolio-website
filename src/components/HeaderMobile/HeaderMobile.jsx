@@ -21,10 +21,9 @@ export default function HeaderMobile({ setModalIsOpen }) {
             </div>
             <div className="header-mobile__links">
                 <NavLink name="Home" href="#home" />
-                <NavLink name="About" href="#about" />
                 <NavLink name="Projects" href="#projects" />
+                <NavLink name="About Me" href="#about" />
                 <NavLink name="LinkedIn" href="https://www.linkedin.com/in/timo-huennebeck/" />
-                <NavLink name="Email" href="mailto:hello@timohuennebeck.com" />
             </div>
         </div>
     );

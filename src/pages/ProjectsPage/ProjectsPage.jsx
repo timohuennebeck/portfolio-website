@@ -12,7 +12,7 @@ export default function ProjectsPage() {
                 <div className="projects__ctn">
                     <div className="projects__ctn-left">
                         <div className="projects__ctn-left-content">
-                            <h1 className="projects__ctn-left-content-header">Projects</h1>
+                            <h2 className="projects__ctn-left-content-header">Projects</h2>
                             <p>
                                 In this section, one can find a well thoughout selection of projects
                                 that I've accumulated over the past 15 weeks! This includes a CRM

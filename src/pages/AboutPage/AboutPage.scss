@@ -48,20 +48,22 @@
 
                 @include desktop {
                     display: flex;
-
-                    &:hover {
-                        cursor: pointer;
-                        transform: scale(1.05);
-                    }
+                    gap: $gap-mobile-cmp-default;
                 }
 
                 &-cv {
                     border: $border-2px;
                     padding: $btn-padding-default;
                     border-radius: 1.75rem;
-                    width: 100%;
                     font-weight: 700;
                     text-decoration: none;
+                    background-color: #fff;
+                    color: #000;
+
+                    &:hover {
+                        cursor: pointer;
+                        transform: scale(1.05);
+                    }
                 }
             }
         }
@@ -81,11 +83,12 @@
             }
 
             &-btn {
+                @include flex-column;
                 text-align: center;
+                gap: $gap-mobile-cmp-default;
 
-                &:hover {
-                    cursor: pointer;
-                    transform: scale(1.05);
+                @include tablet {
+                    flex-direction: row;
                 }
 
                 @include desktop {
@@ -95,10 +98,22 @@
                 &-cv {
                     border: $border-2px;
                     padding: $btn-padding-default;
+                    width: 100%;
                     border-radius: 1.75rem;
                     font-weight: 700;
                     display: block;
                     text-decoration: none;
+                    background-color: #fff;
+                    color: #000;
+
+                    &:hover {
+                        cursor: pointer;
+                        transform: scale(1.05);
+                    }
+                }
+
+                &-component {
+                    width: 100%;
                 }
             }
         }
@@ -110,6 +125,7 @@
 
         @include desktop {
             gap: 5.25rem;
+            flex-direction: row;
         }
     }
 }

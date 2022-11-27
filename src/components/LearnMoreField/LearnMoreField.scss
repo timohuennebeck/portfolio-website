@@ -6,6 +6,12 @@
     gap: $gap-mobile-cmp-default;
     max-width: 27.5rem;
 
+    &__header {
+        font-size: 1rem;
+        color: #FFF;
+        font-weight: 700;
+    }
+
     &__ctn {
         &:hover {
             cursor: pointer;

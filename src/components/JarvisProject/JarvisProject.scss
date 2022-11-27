@@ -89,4 +89,13 @@
             gap: $gap-mobile-cmp-default;
         }
     }
+
+    &__tech-stack {
+        @include flex-column;
+        gap: $gap-mobile-cmp-default;
+
+        @include desktop {
+            width: 80%;
+        }
+    }
 }

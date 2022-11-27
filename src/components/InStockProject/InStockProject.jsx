@@ -12,7 +12,7 @@ export default function InStockProject() {
         <div className="instock">
             <div className="instock__ctn">
                 <div className="instock__ctn-content">
-                    <h1 className="instock__ctn-content-header">InStock</h1>
+                    <h3 className="instock__ctn-content-header">InStock</h3>
                     <p>
                         This was a group work bootcamp project, collaborating using GitFlow and Jira
                         to produce a warehouse platform to manage inventories and warehouses!
@@ -31,18 +31,9 @@ export default function InStockProject() {
                 </div>
                 <div className="instock__ctn-buttons">
                     <div>
-                        <ButtonElement name="LIVE DEMO" backgroundColor="#FFF" fontColor="#000" />
-                    </div>
-                    <div>
                         <ButtonElement
                             name="GITHUB"
-                            href="https://github.com/timohuennebeck/instock"
-                        />
-                    </div>
-                    <div>
-                        <ButtonElement
-                            name="FIGMA"
-                            href="https://www.figma.com/file/oYhwdfRqaOYpqGfCGIlpd4/Personal-Website-Version-2?node-id=3%3A2&t=hmAarOXsMqW2VEFp-0"
+                            href="https://github.com/timohuennebeck/instock-jon"
                         />
                     </div>
                 </div>
@@ -59,13 +50,8 @@ export default function InStockProject() {
                 </div>
             </div>
             <div className="instock__buttons">
-                <ButtonElement name="LIVE DEMO" backgroundColor="#FFF" fontColor="#000" />
                 <div className="instock__buttons-github">
-                    <ButtonElement name="GITHUB" href="https://github.com/timohuennebeck/instock" />
-                    <ButtonElement
-                        name="FIGMA"
-                        href="https://www.figma.com/file/oYhwdfRqaOYpqGfCGIlpd4/Personal-Website-Version-2?node-id=3%3A2&t=hmAarOXsMqW2VEFp-0"
-                    />
+                    <ButtonElement name="GITHUB" href="https://github.com/timohuennebeck/instock-jon" />
                 </div>
             </div>
         </div>

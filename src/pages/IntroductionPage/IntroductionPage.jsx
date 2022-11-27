@@ -32,15 +32,10 @@ export default function IntroductionPage() {
                 </div>
                 <div className="introduction__sub-content-learn-more">
                     <LearnMoreField
-                        name="ABOUT ME"
-                        paragraph="I'm a design-oriented marketer turned Full-Stack Developer who loves striking a balance between functional and aesthetic designs - though I tend to be more front-end oriented!"
-                        href="#about"
-                    />
-                    {/* <LearnMoreField
                         name="MY WORK"
                         paragraph="I have a proven track record and hands-on experience coding websites and applications both with front-end and back-end related languages - including react.js, node.js, express.js, knex.js and more."
                         href="#projects"
-                    /> */}
+                    />
                 </div>
             </div>
         </div>

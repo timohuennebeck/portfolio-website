@@ -6,6 +6,8 @@
     background-color: $prim-color-1;
     color: #fff;
     gap: 1.25rem;
+    max-width: 42.5rem;
+    margin: auto;
 
     &__svg {
         display: flex;

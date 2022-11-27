@@ -3,7 +3,6 @@
 
 .introduction {
     padding-bottom: 0.5rem;
-    
 
     @include desktop {
         border-bottom: 2px solid white;
@@ -16,11 +15,11 @@
         @include desktop {
             flex-direction: row;
             background-image: url("../../assets/images/profile-background.png");
+            background-position: center;
             background-size: cover;
-            height: 55rem;
+            height: 45rem;
             align-items: center;
             border-bottom: 2px solid white;
-            margin-top: 7.25rem;
         }
 
         &-content {
@@ -38,16 +37,6 @@
             &-paragraph {
                 @include desktop {
                     width: 53.75%;
-                }
-            }
-
-            &-learn-more {
-                @include flex-column;
-                gap: 2.25rem;
-
-                @include desktop {
-                    gap: 5.25rem;
-                    margin-bottom: 15rem;
                 }
             }
         }

@@ -3,10 +3,15 @@
 
 .header-desktop {
     display: flex;
+    justify-content: space-between;
+
+    &__name {
+        font-weight: 700;
+    }
 
     &__links {
         display: flex;
-        gap: 1.25rem;
+        gap: 2.25rem;
         list-style-type: none;
 
         &-linkedin {

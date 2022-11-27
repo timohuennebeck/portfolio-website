@@ -26,10 +26,6 @@ export default function ProjectsPage() {
                                 software for warehouses and their corresponding inventories.
                             </p>
                         </div>
-                        <div className="projects__ctn-left-featured">
-                            <FeatureElement number="0.5" element="+" name="Years of Experience" />
-                            <FeatureElement number="8" element="+" name="Successful Projects" />
-                        </div>
                     </div>
                     <div className="projects__ctn-right">
                         <div className="projects__ctn-right-img">

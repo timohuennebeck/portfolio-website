@@ -7,7 +7,9 @@ import NavBar from "../../components/NavBar/NavBar";
 export default function IntroductionPage() {
     return (
         <div className="introduction" id="home">
-            <NavBar />
+            <div className="introduction__nav-bar">
+                <NavBar />
+            </div>
             <div className="introduction__sub">
                 <div className="introduction__sub-content">
                     <h1 className="introduction__sub-content-header">

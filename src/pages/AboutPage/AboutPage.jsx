@@ -31,14 +31,6 @@ export default function AboutPage() {
                                 the tweener and overhead smash right there!
                             </p>
                         </div>
-                        <div className="about__ctn-left-featured">
-                            <FeatureElement number="0.5" element="+" name="Years of Experience" />
-                            <FeatureElement
-                                number="915"
-                                element="+"
-                                name="Hours Invested Into Web Development"
-                            />
-                        </div>
                         <div className="about__ctn-left-btn">
                             <a className="about__ctn-left-btn-cv" href={resumePDF} download>
                                 DOWNLOAD RESUME

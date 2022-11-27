@@ -8,6 +8,15 @@
         border-bottom: 2px solid white;
     }
 
+    &__nav-bar {
+        @include flex-vertical;
+        position: fixed;
+        width: 100%;
+        background-color: $prim-color-1;
+        height: 7.25rem;
+        top: 0;
+    }
+
     &__sub {
         @include flex-column;
         gap: 2.25rem;
@@ -19,6 +28,7 @@
             height: 55rem;
             align-items: center;
             border-bottom: 2px solid white;
+            margin-top: 7.25rem;
         }
 
         &-content {

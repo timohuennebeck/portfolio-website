@@ -23,5 +23,6 @@
     &__links {
         @include flex-column;
         gap: 1.25rem;
+        list-style-type: none;
     }
 }

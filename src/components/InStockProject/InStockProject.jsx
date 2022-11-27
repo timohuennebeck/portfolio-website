@@ -26,8 +26,7 @@ export default function InStockProject() {
                     </p>
                 </div>
                 <div className="instock__ctn-featured">
-                    <FeatureElement name="Days Left Until Launch" number="0" element="+" />
-                    <FeatureElement name="Hours Invested" number="15" element="+" />
+                    <FeatureElement name="Full-Stack Developers Involved" number="4" element="+" />
                 </div>
                 <div className="instock__ctn-buttons">
                     <div>
@@ -51,7 +50,10 @@ export default function InStockProject() {
             </div>
             <div className="instock__buttons">
                 <div className="instock__buttons-github">
-                    <ButtonElement name="GITHUB" href="https://github.com/timohuennebeck/instock-jon" />
+                    <ButtonElement
+                        name="GITHUB"
+                        href="https://github.com/timohuennebeck/instock-jon"
+                    />
                 </div>
             </div>
         </div>

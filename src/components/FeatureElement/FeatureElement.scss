@@ -9,12 +9,22 @@
     &__amount {
         @include flex-vertical;
 
+        &-number {
+            color: $prim-color-2;
+            font-weight: 700;
+            font-size: 1.375rem;
+        }
+
         &-element {
             color: $sec-color-1;
+            font-size: 1.375rem;
+            font-weight: 700;
         }
     }
 
     &__name {
-        width: 50%;
+        color: $prim-color-2;
+        font-weight: 700;
+        font-size: 1.175rem;
     }
 }

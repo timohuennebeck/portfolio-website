@@ -22,8 +22,11 @@ export default function JarvisProject() {
                     <p>It's time to put an end to the stress of searching for jobs!</p>
                 </div>
                 <div className="jarvis__ctn-featured">
-                    <FeatureElement name="Days Left Until Beta Version" number="10" element="+" />
-                    <FeatureElement name="Hours Invested" number="152" element="+" />
+                    <FeatureElement
+                        name="Days Left Until Alpha Version (10th of Jan)"
+                        number="42"
+                        element="+"
+                    />
                 </div>
                 <div className="jarvis__ctn-buttons">
                     <div>

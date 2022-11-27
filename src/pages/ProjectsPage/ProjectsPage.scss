@@ -36,7 +36,6 @@
 
             &-featured {
                 @include flex-vertical;
-                justify-content: space-between;
 
                 @include tablet {
                     justify-content: flex-start;

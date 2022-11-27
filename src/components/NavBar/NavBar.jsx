@@ -17,7 +17,7 @@ export default function NavBar() {
     }
 
     return (
-        <div className="nav-bar">
+        <nav className="nav-bar">
             <div className="nav-bar__mobile">
                 <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -41,6 +41,6 @@ export default function NavBar() {
             >
                 <HeaderMobile setModalIsOpen={setModalIsOpen} />
             </ReactModal>
-        </div>
+        </nav>
     );
 }

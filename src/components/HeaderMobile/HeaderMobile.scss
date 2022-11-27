@@ -2,14 +2,15 @@
 @use "../../styles/partials/mixins" as *;
 
 .header-mobile {
+    @include flex-column;
     background-color: $prim-color-1;
     color: #fff;
-    @include flex-column;
     gap: 1.25rem;
-    max-width: 41.75rem;
-    margin: auto;
 
     &__svg {
+        display: flex;
+        justify-content: flex-start;
+
         &-img {
             fill: #fff;
 

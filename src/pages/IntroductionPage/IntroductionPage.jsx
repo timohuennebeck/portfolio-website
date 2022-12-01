@@ -17,7 +17,7 @@ export default function IntroductionPage() {
                         <br />a Front End Developer
                     </h1>
                     <p className="introduction__sub-content-paragraph">
-                        I'm a German Front End Developer who was borned and raised in Cologne, GER -
+                        I'm a German Front End Developer who was born and raised in Cologne, GER -
                         living in Melbourne, AUS!
                     </p>
                     <p className="introduction__sub-content-paragraph">
@@ -33,7 +33,7 @@ export default function IntroductionPage() {
                 <div className="introduction__sub-content-learn-more">
                     <LearnMoreField
                         name="MY WORK"
-                        paragraph="I have a proven track record and hands-on experience coding websites and applications both with front-end and back-end related languages - including react.js, node.js, express.js, knex.js and more."
+                        paragraph="I have hands-on experience coding websites and applications both with front-end and back-end related languages - including react.js, node.js, express.js, knex.js and more."
                         href="#projects"
                     />
                 </div>

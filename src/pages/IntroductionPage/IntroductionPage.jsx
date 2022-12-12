@@ -17,8 +17,8 @@ export default function IntroductionPage() {
                         <br />a Front End Developer
                     </h1>
                     <p className="introduction__sub-content-paragraph">
-                        I'm a German Front End Developer who was born and raised in Cologne, GER -
-                        living in Melbourne, AUS!
+                        I'm a German Front End Developer who was born and raised in Cologne, GER
+                        with work experience in England, Canada, Poland, México and Colombia.
                     </p>
                     <p className="introduction__sub-content-paragraph">
                         I'm also an automation enthusiast and attempt to automate whatever possible.

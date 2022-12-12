@@ -1,9 +1,7 @@
 import "./AboutPage.scss";
 
-import FeatureElement from "../../components/FeatureElement/FeatureElement";
 import ImageFrame from "../../components/ImageFrame/ImageFrame";
-import LearnMoreField from "../../components/LearnMoreField/LearnMoreField";
-import resumePDF from "../../assets/documents/Timo-Huennebeck-Front-End-Developer-Resume.pdf";
+import resumePDF from "../../assets/documents/Resume-Timo-Huennebeck-Full-Stack-Developer.pdf";
 import brainstationImg from "../../assets/images/brainstation.jpg";
 import ButtonElement from "../../components/ButtonElement/ButtonElement";
 

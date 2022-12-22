@@ -23,8 +23,8 @@ export default function JarvisProject() {
                 </div>
                 <div className="jarvis__ctn-featured">
                     <FeatureElement
-                        name="Days Left Until Alpha Version (10th of Jan)"
-                        number="42"
+                        name="Days Left Until Alpha Version"
+                        number="14"
                         element="+"
                     />
                 </div>

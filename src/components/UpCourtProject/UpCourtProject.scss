@@ -1,0 +1,108 @@
+@use "../../styles/partials/mixins" as *;
+@use "../../styles/partials/variables" as *;
+
+.upcourt {
+    @include flex-column;
+    gap: 2.25rem;
+
+    &__ctn {
+        @include flex-column;
+        gap: 2.25rem;
+
+        &-content {
+            @include flex-column;
+            gap: 2.25rem;
+
+            @include desktop {
+                width: 80%;
+            }
+
+            &-border {
+
+                &-span {
+                    border-top: 5px solid white;
+                    width: 4.5rem;
+                }
+            }
+        }
+
+        &-featured {
+            @include flex-vertical;
+            justify-content: space-between;
+
+            @include tablet {
+                justify-content: flex-start;
+            }
+        }
+
+        &-buttons {
+            display: none;
+
+            @include desktop {
+                display: flex;
+                gap: 1.25rem;
+            }
+        }
+    }
+
+    &__images {
+        @include flex-column;
+        gap: $gap-mobile-cmp-default;
+
+        @include desktop {
+            flex-direction: row;
+            gap: 2.25rem;
+
+            &-left {
+                &:active {
+                    transform: scale(2.25);
+                    position: relative;
+                    left: 25%;
+                }
+            }
+
+            &-middle {
+                &:active {
+                    transform: scale(2.25);
+                    position: relative;
+                }
+            }
+
+            &-right {
+                &:active {
+                    transform: scale(2.25);
+                    position: relative;
+                    right: 25%;
+                }
+            }
+        }
+    }
+
+    &__buttons {
+        @include flex-column;
+        gap: $gap-mobile-cmp-default;
+
+        @include tablet {
+            flex-direction: row;
+        }
+
+        @include desktop {
+            display: none;
+        }
+
+        &-github {
+            @include flex-vertical;
+            width: 100%;
+            gap: $gap-mobile-cmp-default;
+        }
+    }
+
+    &__tech-stack {
+        @include flex-column;
+        gap: $gap-mobile-cmp-default;
+
+        @include desktop {
+            width: 80%;
+        }
+    }
+}

@@ -67,21 +67,21 @@ export default function UpCourtProject() {
                     <ImageFrame img={upCourt3} />
                 </div>
             </div>
-            <div className="upcourt__buttons">
+            {/* <div className="upcourt__buttons">
                 <ButtonElement
                     name="LIVE DEMO"
                     href="https://upcourt-internal-social-media.herokuapp.com/"
                     backgroundColor="#FFF"
                     fontColor="#000"
                 />
-                {/* <div className="upcourt__buttons-github">
+                <div className="upcourt__buttons-github">
                     <ButtonElement name="GITHUB" href="https://github.com/timohuennebeck/upcourt" />
                     <ButtonElement
                         name="FIGMA"
                         href="https://www.figma.com/file/VcHAeAbxy9oBoIYdIIOwVm/upcourt-Internal-Social-Media?node-id=0%3A1&t=IKdbWntJnie2hYXF-0"
                     />
-                </div> */}
-            </div>
+                </div>
+            </div> */}
             <div className="upcourt__tech-stack">
                 <h4>Tech Stack</h4>
                 <p>

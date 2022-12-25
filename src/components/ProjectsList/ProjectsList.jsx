@@ -4,6 +4,7 @@ import JarvisProject from "../JarvisProject/JarvisProject";
 import AliaProject from "../AliaProject/AliaProject";
 import UpCourtProject from "../UpCourtProject/UpCourtProject";
 import InStockProject from "../InStockProject/InStockProject";
+import EmmaProject from "../EmmaProject/EmmaProject";
 
 export default function ProjectsList() {
     return (
@@ -11,6 +12,7 @@ export default function ProjectsList() {
             <JarvisProject />
             <AliaProject />
             <UpCourtProject />
+            <EmmaProject />
             <InStockProject />
         </div>
     );

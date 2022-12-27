@@ -14,7 +14,7 @@ export default function EmmaProject() {
                 <div className="emma__ctn-content">
                     <div className="emma__ctn-content-border">
                         <div className="emma__ctn-content-border-span"></div>
-                        <h3 className="emma__ctn-content-border-header">Emma - Coming Soon</h3>
+                        <h3 className="emma__ctn-content-border-header">Emma - In Progress</h3>
                     </div>
                     <p>
                         Emma is an language learning app that utilizes artificial intelligence and
@@ -32,8 +32,8 @@ export default function EmmaProject() {
                 <div className="emma__ctn-featured">
                     <FeatureElement name="Days Left Until Alpha Version" number="57" element="+" />
                 </div>
-                {/* <div className="upcourt__ctn-buttons">
-                    <div>
+                <div className="upcourt__ctn-buttons">
+                    {/* <div>
                         <ButtonElement
                             name="LIVE DEMO"
                             href="https://alia-internal-social-media.herokuapp.com/"
@@ -46,14 +46,14 @@ export default function EmmaProject() {
                             name="GITHUB"
                             href="https://github.com/timohuennebeck/alia"
                         />
-                    </div>
+                    </div> */}
                     <div>
                         <ButtonElement
                             name="FIGMA"
-                            href="https://www.figma.com/file/VcHAeAbxy9oBoIYdIIOwVm/Alia-Internal-Social-Media?node-id=0%3A1&t=IKdbWntJnie2hYXF-0"
+                            href="https://www.figma.com/file/yp4cBS9cr02B2oX4SiZ9y4/Emma?node-id=0%3A1&t=2k8cPzE9U5ZQbwFP-1"
                         />
                     </div>
-                </div> */}
+                </div>
             </div>
             <div className="emma__images">
                 <div className="emma__images-left">
@@ -66,21 +66,21 @@ export default function EmmaProject() {
                     <ImageFrame img={emma3} />
                 </div>
             </div>
-            {/* <div className="upcourt__buttons">
-                <ButtonElement
+            <div className="upcourt__buttons">
+                {/* <ButtonElement
                     name="LIVE DEMO"
                     href="https://upcourt-internal-social-media.herokuapp.com/"
                     backgroundColor="#FFF"
                     fontColor="#000"
-                />
+                /> */}
                 <div className="upcourt__buttons-github">
-                    <ButtonElement name="GITHUB" href="https://github.com/timohuennebeck/upcourt" />
+                    {/* <ButtonElement name="GITHUB" href="https://github.com/timohuennebeck/upcourt" /> */}
                     <ButtonElement
                         name="FIGMA"
-                        href="https://www.figma.com/file/VcHAeAbxy9oBoIYdIIOwVm/upcourt-Internal-Social-Media?node-id=0%3A1&t=IKdbWntJnie2hYXF-0"
+                        href="https://www.figma.com/file/yp4cBS9cr02B2oX4SiZ9y4/Emma?node-id=0%3A1&t=2k8cPzE9U5ZQbwFP-1"
                     />
                 </div>
-            </div> */}
+            </div>
             <div className="emma__tech-stack">
                 <h4>Tech Stack</h4>
                 <p>

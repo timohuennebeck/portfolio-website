@@ -10,9 +10,9 @@ export default function ProjectsList() {
     return (
         <div className="projects-list">
             <JarvisProject />
-            <AliaProject />
-            <UpCourtProject />
             <EmmaProject />
+            <UpCourtProject />
+            <AliaProject />
             <InStockProject />
         </div>
     );

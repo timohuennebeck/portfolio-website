@@ -1,34 +1,34 @@
-import "./JarvisProject.scss";
+import "./IreliaProject.scss";
 
 import ButtonElement from "../ButtonElement/ButtonElement";
 import FeatureElement from "../FeatureElement/FeatureElement";
 import ImageFrame from "../ImageFrame/ImageFrame";
-import jarvisImg1 from "../../assets/images/jarvis-1.jpg";
-import jarvisImg2 from "../../assets/images/jarvis-2.jpg";
-import jarvisImg3 from "../../assets/images/jarvis-3.jpg";
+import ireliaImg1 from "../../assets/images/irelia-1.jpg";
+import ireliaImg2 from "../../assets/images/irelia-2.jpg";
+import ireliaImg3 from "../../assets/images/irelia-3.jpg";
 
-export default function JarvisProject() {
+export default function IreliaProject() {
     return (
-        <div className="jarvis">
-            <div className="jarvis__ctn">
-                <div className="jarvis__ctn-content">
-                    <h3 className="jarvis__ctn-content-header">Jarvis</h3>
+        <div className="irelia">
+            <div className="irelia__ctn">
+                <div className="irelia__ctn-content">
+                    <h3 className="irelia__ctn-content-header">Irelia</h3>
                     <p>
-                        Finding a job can be time-consuming and stressful! Jarvis aims to solve this
+                        Finding a job can be time-consuming and stressful! Irelia aims to solve this
                         problem - allowing users to track the status of their job application and
                         create personalised cover letters all while saving 5 - 10min. per
                         application.
                     </p>
                     <p>It's time to put an end to the stress of searching for jobs!</p>
                 </div>
-                <div className="jarvis__ctn-featured">
+                <div className="irelia__ctn-featured">
                     <FeatureElement
                         name="Days Left Until Alpha Version"
                         number="14"
                         element="+"
                     />
                 </div>
-                <div className="jarvis__ctn-buttons">
+                <div className="irelia__ctn-buttons">
                     <div>
                         <ButtonElement
                             name="LIVE DEMO"
@@ -51,25 +51,25 @@ export default function JarvisProject() {
                     </div>
                 </div>
             </div>
-            <div className="jarvis__images">
-                <div className="jarvis__images-left">
-                    <ImageFrame img={jarvisImg1} />
+            <div className="irelia__images">
+                <div className="irelia__images-left">
+                    <ImageFrame img={ireliaImg1} />
                 </div>
-                <div className="jarvis__images-middle">
-                    <ImageFrame img={jarvisImg2} />
+                <div className="irelia__images-middle">
+                    <ImageFrame img={ireliaImg2} />
                 </div>
-                <div className="jarvis__images-right">
-                    <ImageFrame img={jarvisImg3} />
+                <div className="irelia__images-right">
+                    <ImageFrame img={ireliaImg3} />
                 </div>
             </div>
-            <div className="jarvis__buttons">
+            <div className="irelia__buttons">
                 <ButtonElement
                     name="LIVE DEMO"
                     href="https://jarvis-capstone.herokuapp.com"
                     backgroundColor="#FFF"
                     fontColor="#000"
                 />
-                <div className="jarvis__buttons-github">
+                <div className="irelia__buttons-github">
                     <ButtonElement
                         name="GITHUB"
                         href="https://github.com/timohuennebeck/jarvis-cap"
@@ -80,10 +80,10 @@ export default function JarvisProject() {
                     />
                 </div>
             </div>
-            <div className="jarvis__tech-stack">
+            <div className="irelia__tech-stack">
                 <h4>Tech Stack</h4>
                 <p>
-                    Jarvis is another full-stack react app which uses SASS on the front-end allowing
+                    Irelia is another full-stack react app which uses SASS on the front-end allowing
                     me to create this mobile-responsive application in just one week without having
                     to sacrifice performance.
                 </p>

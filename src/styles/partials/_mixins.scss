@@ -38,3 +38,27 @@
 @mixin border-default {
     border: 2px solid $prim-color-2;
 }
+
+@mixin slide-in-left {
+    position: relative;
+    animation: slide 2.25s forwards;
+    left: -150%;
+
+    @keyframes slide {
+        100% {
+            left: 0;
+        }
+    }
+}
+
+@mixin slide-in-right {
+    position: relative;
+    animation: slide 1.5s forwards;
+    right: -150%;
+
+    @keyframes slide {
+        100% {
+            right: 0;
+        }
+    }
+}

@@ -3,6 +3,7 @@
 
 .app {
     @include flex-column;
+    @include slide-in-left;
     gap: 4.75rem;
     max-width: 42.5rem;
     margin: auto;

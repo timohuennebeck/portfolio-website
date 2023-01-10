@@ -1,38 +1,37 @@
-import "./AliaProject.scss";
+import "./FuseProject.scss";
 
 import ButtonElement from "../ButtonElement/ButtonElement";
 import FeatureElement from "../FeatureElement/FeatureElement";
 import ImageFrame from "../ImageFrame/ImageFrame";
-import img from "../../assets/images/microsoft-certificate.jpg";
-import alia1 from "../../assets/images/alia-1.jpg";
-import alia2 from "../../assets/images/alia-2.jpg";
-import alia3 from "../../assets/images/alia-3.jpg";
+import fuse1 from "../../assets/images/fuse-1.jpg";
+import fuse2 from "../../assets/images/fuse-2.jpg";
+import fuse3 from "../../assets/images/fuse-3.jpg";
 
-export default function AliaProject() {
+export default function FuseProject() {
     return (
-        <div className="alia">
-            <div className="alia__ctn">
-                <div className="alia__ctn-content">
-                    <h3 className="alia__ctn-content-header">Alia</h3>
+        <div className="fuse">
+            <div className="fuse__ctn">
+                <div className="fuse__ctn-content">
+                    <h3 className="fuse__ctn-content-header">Fuse</h3>
                     <p>
                         Moving from a traditional to a remote working environment can be
                         frustrating, but it doesn't have to be!
                     </p>
                     <p>
-                        Alia's internal social media platform offers employees an opportunity to
+                        Fuse's internal social media platform offers employees an opportunity to
                         find a balance in their life through a sense of community and collaboration
                         both on and off the clock. Find out how we are making remote work feel like
                         being in the same room!
                     </p>
                 </div>
-                <div className="alia__ctn-featured">
+                <div className="fuse__ctn-featured">
                     <FeatureElement
                         name="Days Left Until Alpha Version"
                         number="14"
                         element="+"
                     />
                 </div>
-                <div className="alia__ctn-buttons">
+                <div className="fuse__ctn-buttons">
                     <div>
                         <ButtonElement
                             name="LIVE DEMO"
@@ -55,25 +54,25 @@ export default function AliaProject() {
                     </div>
                 </div>
             </div>
-            <div className="alia__images">
-                <div className="alia__images-left">
-                    <ImageFrame img={alia1} />
+            <div className="fuse__images">
+                <div className="fuse__images-left">
+                    <ImageFrame img={fuse1} />
                 </div>
-                <div className="alia__images-middle">
-                    <ImageFrame img={alia2} />
+                <div className="fuse__images-middle">
+                    <ImageFrame img={fuse2} />
                 </div>
-                <div className="alia__images-right">
-                    <ImageFrame img={alia3} />
+                <div className="fuse__images-right">
+                    <ImageFrame img={fuse3} />
                 </div>
             </div>
-            <div className="alia__buttons">
+            <div className="fuse__buttons">
                 <ButtonElement
                     name="LIVE DEMO"
                     href="https://alia-internal-social-media.herokuapp.com/"
                     backgroundColor="#FFF"
                     fontColor="#000"
                 />
-                <div className="alia__buttons-github">
+                <div className="fuse__buttons-github">
                     <ButtonElement name="GITHUB" href="https://github.com/timohuennebeck/alia" />
                     <ButtonElement
                         name="FIGMA"
@@ -81,7 +80,7 @@ export default function AliaProject() {
                     />
                 </div>
             </div>
-            <div className="alia__tech-stack">
+            <div className="fuse__tech-stack">
                 <h4>Tech Stack</h4>
                 <p>
                     This full-stack react app uses SASS on the front-end allowing me to develop a
@@ -91,12 +90,12 @@ export default function AliaProject() {
                     comments, hubs data, upcoming meetings / events.
                 </p>
                 <p>
-                    Alia uses Knex.js to create a relational database which is used to connect users
+                    Fuse uses Knex.js to create a relational database which is used to connect users
                     with their corresponding posts, comments and hubs. To implement verification and
                     authorization to prohibit unwanted user access, oauth was used.
                 </p>
                 <p>
-                    P.S. Alia will experience code refactoring until the 31st of December.
+                    P.S. Fuse will experience code refactoring until the 31st of December.
                     Exchanging existing JS code for TS one making it more readable, modular and
                     performant.
                 </p>

@@ -14,7 +14,7 @@ export default function EmmaProject() {
                 <div className="emma__ctn-content">
                     <div className="emma__ctn-content-border">
                         <div className="emma__ctn-content-border-span"></div>
-                        <h3 className="emma__ctn-content-border-header">Emma - In Progress</h3>
+                        <h3 className="emma__ctn-content-border-header">Emma - In Development</h3>
                     </div>
                     <p>
                         Emma is an language learning app that utilizes artificial intelligence and

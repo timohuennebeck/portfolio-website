@@ -1,6 +1,5 @@
 import "./ProjectsPage.scss";
 
-import FeatureElement from "../../components/FeatureElement/FeatureElement";
 import ImageFrame from "../../components/ImageFrame/ImageFrame";
 import microsoftImg from "../../assets/images/microsoft-certificate.jpg";
 import ProjectList from "../../components/ProjectsList/ProjectsList";

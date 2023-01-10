@@ -15,7 +15,7 @@ export default function UpCourtProject() {
                     <div className="upcourt__ctn-content-border">
                         <div className="upcourt__ctn-content-border-span"></div>
                         <h3 className="upcourt__ctn-content-border-header">
-                            UpCourt - Coming Soon
+                            UpCourt - Put on hold
                         </h3>
                     </div>
                     <p>

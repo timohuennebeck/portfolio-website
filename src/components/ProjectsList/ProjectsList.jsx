@@ -1,7 +1,7 @@
 import "./ProjectsList.scss";
 
-import JarvisProject from "../JarvisProject/JarvisProject";
-import AliaProject from "../AliaProject/AliaProject";
+import IreliaProject from "../IreliaProject/IreliaProject";
+import FuseProject from "../FuseProject/FuseProject";
 import UpCourtProject from "../UpCourtProject/UpCourtProject";
 import InStockProject from "../InStockProject/InStockProject";
 import EmmaProject from "../EmmaProject/EmmaProject";
@@ -9,10 +9,10 @@ import EmmaProject from "../EmmaProject/EmmaProject";
 export default function ProjectsList() {
     return (
         <div className="projects-list">
-            <JarvisProject />
+            <IreliaProject />
+            <FuseProject />
             <EmmaProject />
             <UpCourtProject />
-            <AliaProject />
             <InStockProject />
         </div>
     );

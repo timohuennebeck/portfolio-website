@@ -1,7 +1,7 @@
 import "./AboutPage.scss";
 
 import ImageFrame from "../../components/ImageFrame/ImageFrame";
-import resumePDF from "../../assets/documents/Resume-Timo-Huennebeck-Front-End-Developer.pdf";
+import cvPDF from "../../assets/documents/CV-Timo-Huennebeck-Frontend-Developer.pdf";
 import brainstationImg from "../../assets/images/brainstation.jpg";
 import ButtonElement from "../../components/ButtonElement/ButtonElement";
 
@@ -14,24 +14,21 @@ export default function AboutPage() {
                         <div className="about__ctn-left-content">
                             <h2 className="about__ctn-left-content-header">About Me</h2>
                             <p>
-                                I'm aware that one of the biggest challenges as a developer is
-                                keeping up with changing technologies!
+                                P.S. When I'm not coding, I love to practice tennis which I've
+                                developed an obsession with since I first saw the Australian Open in
+                                2020 or go surfing, tho it's kind of hard over here.
                             </p>
                             <p>
-                                While I've acquired working knowledge in React.js, Node.js, Knex.js,
-                                etc... in the bootcamp I'm keen to continue using that same grit and
-                                diligence to keep on acquiring new frameworks and languages.
-                            </p>
-                            <p>
-                                P.S. When I'm not coding I love practicing tennis which I've
-                                developed an (almost) obsession with since I first saw the
-                                Australian Open or go surfing (just starting out)! Huge advocate of
-                                the tweener and overhead smash right there!
+                                I almost forgot, I'm a passionate linguist! I'm fluent in German and
+                                English (C1), attained an intermediate level in Spanish (B2), and am
+                                now delving into the French (A2) language with plans to further
+                                expand this linguistic repertoire with Portuguese within the next 24
+                                - 36 months.
                             </p>
                         </div>
                         <div className="about__ctn-left-btn">
-                            <a className="about__ctn-left-btn-cv" href={resumePDF} download>
-                                DOWNLOAD RESUME
+                            <a className="about__ctn-left-btn-cv" href={cvPDF} download>
+                                DOWNLOAD CV
                             </a>
                             <div>
                                 <ButtonElement
@@ -46,8 +43,8 @@ export default function AboutPage() {
                             <ImageFrame img={brainstationImg} />
                         </div>
                         <div className="about__ctn-right-btn">
-                            <a className="about__ctn-right-btn-cv" href={resumePDF} download>
-                                DOWNLOAD RESUME
+                            <a className="about__ctn-right-btn-cv" href={cvPDF} download>
+                                DOWNLOAD CV
                             </a>
                             <div className="about__ctn-right-btn-component">
                                 <ButtonElement

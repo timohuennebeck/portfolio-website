@@ -14,25 +14,21 @@ export default function IreliaProject() {
                 <div className="irelia__ctn-content">
                     <h3 className="irelia__ctn-content-header">Irelia</h3>
                     <p>
-                        Finding a job can be time-consuming and stressful! Irelia aims to solve this
-                        problem - allowing users to track the status of their job application and
-                        create personalised cover letters all while saving 5 - 10min. per
-                        application.
+                        Irelia leverages Open AI's artificial intelligence to assist job seekers in
+                        tracking their application status, overcoming writers block and crafting
+                        personalised cover letters. This platform was presented to 50+ alumni and
+                        was offered beta testing opportunities from 8+ different BrainStation
+                        graduates.
                     </p>
-                    <p>It's time to put an end to the stress of searching for jobs!</p>
                 </div>
                 <div className="irelia__ctn-featured">
-                    <FeatureElement
-                        name="Days Left Until Alpha Version"
-                        number="14"
-                        element="+"
-                    />
+                    <FeatureElement name="Days Left Until Alpha Version" number="14" element="+" />
                 </div>
                 <div className="irelia__ctn-buttons">
                     <div>
                         <ButtonElement
                             name="LIVE DEMO"
-                            href="https://jarvis-capstone.herokuapp.com"
+                            href="https://irelia-career-management.herokuapp.com"
                             backgroundColor="#FFF"
                             fontColor="#000"
                         />
@@ -40,7 +36,7 @@ export default function IreliaProject() {
                     <div>
                         <ButtonElement
                             name="GITHUB"
-                            href="https://github.com/timohuennebeck/jarvis-cap"
+                            href="https://github.com/timohuennebeck/irelia-career-management"
                         />
                     </div>
                     <div>
@@ -65,14 +61,14 @@ export default function IreliaProject() {
             <div className="irelia__buttons">
                 <ButtonElement
                     name="LIVE DEMO"
-                    href="https://jarvis-capstone.herokuapp.com"
+                    href="https://irelia-career-management.herokuapp.com"
                     backgroundColor="#FFF"
                     fontColor="#000"
                 />
                 <div className="irelia__buttons-github">
                     <ButtonElement
                         name="GITHUB"
-                        href="https://github.com/timohuennebeck/jarvis-cap"
+                        href="https://github.com/timohuennebeck/irelia-career-management"
                     />
                     <ButtonElement
                         name="FIGMA"
@@ -82,25 +78,10 @@ export default function IreliaProject() {
             </div>
             <div className="irelia__tech-stack">
                 <h4>Tech Stack</h4>
-                <p>
-                    Irelia is another full-stack react app which uses SASS on the front-end allowing
-                    me to create this mobile-responsive application in just one week without having
-                    to sacrifice performance.
-                </p>
-                <p>
-                    For the back-end I decided to use a combination of Node.js and Express.js to
-                    create a REST API allowing me to receive data on the front-end using axios
-                    calls, as well as, connect a relational database to it using Knex.js which is
-                    responsible for handling the users data, leads and companies withe their
-                    corresponding statuses. For user verficiation and authorization oauth was used
-                    to prohibt unwanted user access.
-                </p>
-                <p>
-                    P.S. This project will experience code refactoring until the 31st of December.
-                    Including exchanging existing SASS files with inline HTML inline Tailwind code
-                    and switching out some JS code for TS one to make the platform more robust for
-                    scaling.
-                </p>
+                <p>Frontend:</p>
+                <p>JavaScript (TS and React.js), HTML, CSS (SASS), Redux</p>
+                <p>Backend:</p>
+                <p>Node.js, Express.js, MYSQL (Knex.js), Heroku</p>
             </div>
         </div>
     );

@@ -17,14 +17,14 @@ export default function IntroductionPage() {
                         <br />a Frontend Developer
                     </h1>
                     <p className="introduction__sub-content-paragraph">
-                        I'm a German Front End Developer who was born and raised in Cologne, GER
-                        with work experience in England, Canada, Poland, México and Colombia.
+                        I'm an IBM cloud-certified Frontend Developer with a multifaceted skill set
+                        encompassing both front-end and back-end development such as JavaScript,
+                        React.js, Redux.js, Node.js and more (see second-last page for the full
+                        stack).
                     </p>
                     <p className="introduction__sub-content-paragraph">
-                        I'm also an automation enthusiast and attempt to automate whatever possible.
-                        Whether it be using Google Home to turn on the lights the moment I get home,
-                        or using Zapier to connect Trello and LinkedIn to populate a new card with
-                        the users information whenever I get a new LinkedIn message!
+                        "I am committed to merge AI and software development to create seamless user
+                        experiences."
                     </p>
                 </div>
                 <div className="introduction__sub-ctn">
@@ -33,7 +33,7 @@ export default function IntroductionPage() {
                 <div className="introduction__sub-content-learn-more">
                     <LearnMoreField
                         name="MY WORK"
-                        paragraph="I have hands-on experience coding websites and applications both with front-end and back-end related languages - including react.js, node.js, express.js, knex.js and more."
+                        paragraph="I have a passion for UX design and artificial intelligence, aiming to develop applications that combine these huge interests of mine."
                         href="#projects"
                     />
                 </div>

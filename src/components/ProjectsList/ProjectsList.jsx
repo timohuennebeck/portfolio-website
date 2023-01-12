@@ -12,8 +12,6 @@ export default function ProjectsList() {
             <IreliaProject />
             <FuseProject />
             <EmmaProject />
-            <UpCourtProject />
-            <InStockProject />
         </div>
     );
 }

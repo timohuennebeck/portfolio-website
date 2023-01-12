@@ -17,16 +17,10 @@ export default function EmmaProject() {
                         <h3 className="emma__ctn-content-border-header">Emma - In Development</h3>
                     </div>
                     <p>
-                        Emma is an language learning app that utilizes artificial intelligence and
-                        text-to-speech to create a fully immersive language learning experience.
-                    </p>
-                    <p>
-                        With Emma, users can engage in real-life conversations with an AI, allowing
-                        them to practice their language skills in a natural and authentic way.
-                        Whether you're just starting out with a new language or looking to improve
-                        your fluency, Emma is the perfect tool to help you reach your goals. Plus,
-                        with a wide range of interactive exercises and games, Emma is not only
-                        effective but also fun and engaging.
+                        I'm co-developing Emma, an AI-powered language learning platform that
+                        utilises AI to simulate real-life conversation with native speakers to
+                        empower individuals in less developed, financially disadvantaged countries
+                        to acquire foreign language for free.
                     </p>
                 </div>
                 <div className="emma__ctn-featured">
@@ -83,19 +77,10 @@ export default function EmmaProject() {
             </div>
             <div className="emma__tech-stack">
                 <h4>Tech Stack</h4>
-                <p>
-                    Emma is a modern web application built using the React JavaScript library and
-                    written in TypeScript, a typed superset of JavaScript. The app utilizes a MySQL
-                    database to store and manage user data, which is hosted on Amazon Web Services
-                    (AWS). AWS is a cloud computing platform that provides a range of services,
-                    including computing, storage, and database management, allowing Emma to scale
-                    and handle a large number of users with ease.
-                </p>
-                <p>
-                    The combination of React, TypeScript, and AWS allows UpCourt to provide a fast,
-                    reliable, and secure platform for tennis students and teachers to connect and
-                    coordinate lessons.
-                </p>
+                <p>Frontend:</p>
+                <p>JavaScript (TS and React.js), HTML, CSS (SASS), Redux</p>
+                <p>Backend:</p>
+                <p>Node.js, Express.js, MYSQL (Knex.js), Heroku</p>
             </div>
         </div>
     );

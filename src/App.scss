@@ -4,13 +4,13 @@
 .app {
     @include flex-column;
     @include slide-in-left;
-    gap: 4.75rem;
+    gap: 4.25rem;
     max-width: 42.5rem;
     margin: auto;
 
     @include desktop {
         max-width: 92.25rem;
         margin: auto;
-        gap: 10.25rem;
+        gap: 7.25rem;
     }
 }

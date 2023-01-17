@@ -24,7 +24,7 @@ export default function EmmaProject() {
                     </p>
                 </div>
                 <div className="emma__ctn-featured">
-                    <FeatureElement name="Days Left Until Alpha Version" number="57" element="+" />
+                    <FeatureElement name="Days Left Until Alpha Version" number="35" element="+" />
                 </div>
                 <div className="upcourt__ctn-buttons">
                     {/* <div>

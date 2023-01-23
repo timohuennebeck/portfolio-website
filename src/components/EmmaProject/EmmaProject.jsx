@@ -27,10 +27,10 @@ export default function EmmaProject() {
                     <FeatureElement name="Days Left Until Alpha Version" number="35" element="+" />
                 </div>
                 <div className="upcourt__ctn-buttons">
-                    {/* <div>
+                    <div>
                         <ButtonElement
                             name="LIVE DEMO"
-                            href="https://alia-internal-social-media.herokuapp.com/"
+                            href="https://emma-language-learning.herokuapp.com/"
                             backgroundColor="#FFF"
                             fontColor="#000"
                         />
@@ -38,9 +38,9 @@ export default function EmmaProject() {
                     <div>
                         <ButtonElement
                             name="GITHUB"
-                            href="https://github.com/timohuennebeck/alia"
+                            href="https://github.com/timohuennebeck/emma-language-learning"
                         />
-                    </div> */}
+                    </div>
                     <div>
                         <ButtonElement
                             name="FIGMA"
@@ -61,14 +61,17 @@ export default function EmmaProject() {
                 </div>
             </div>
             <div className="upcourt__buttons">
-                {/* <ButtonElement
+                <ButtonElement
                     name="LIVE DEMO"
-                    href="https://upcourt-internal-social-media.herokuapp.com/"
+                    href="https://emma-language-learning.herokuapp.com/"
                     backgroundColor="#FFF"
                     fontColor="#000"
-                /> */}
+                />
                 <div className="upcourt__buttons-github">
-                    {/* <ButtonElement name="GITHUB" href="https://github.com/timohuennebeck/upcourt" /> */}
+                    <ButtonElement
+                        name="GITHUB"
+                        href="https://github.com/timohuennebeck/emma-language-learning"
+                    />
                     <ButtonElement
                         name="FIGMA"
                         href="https://www.figma.com/file/yp4cBS9cr02B2oX4SiZ9y4/Emma?node-id=0%3A1&t=2k8cPzE9U5ZQbwFP-1"

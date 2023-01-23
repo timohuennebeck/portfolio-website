@@ -20,7 +20,7 @@ export default function AboutPage() {
                             </p>
                             <p>
                                 I almost forgot, I'm a passionate linguist! I'm fluent in German and
-                                English (C1), attained an intermediate level in Spanish (B2), and am
+                                English (C1), attained an intermediate level in Spanish (B1), and am
                                 now delving into the French (A2) language with plans to further
                                 expand this linguistic repertoire with Portuguese within the next 24
                                 - 36 months.

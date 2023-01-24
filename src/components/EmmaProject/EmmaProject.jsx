@@ -17,7 +17,7 @@ export default function EmmaProject() {
                         <h3 className="emma__ctn-content-border-header">Emma - In Development</h3>
                     </div>
                     <p>
-                        I'm co-developing Emma, an AI-powered language learning platform that
+                        Emma, an AI-powered language learning platform that
                         utilises AI to simulate real-life conversation with native speakers to
                         empower individuals in less developed, financially disadvantaged countries
                         to acquire foreign language for free.

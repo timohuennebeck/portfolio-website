@@ -19,7 +19,7 @@ export default function IntroductionPage() {
                     <p className="introduction__sub-content-paragraph">
                         I'm an IBM cloud-certified Frontend Developer with a multifaceted skill set
                         encompassing both front-end and back-end development such as JavaScript,
-                        React.js, Redux.js, Node.js and more (see second-last page for the full
+                        React.js, Redux.js, Node.js and more (see second-last page on CV for the full
                         stack).
                     </p>
                     <p className="introduction__sub-content-paragraph">

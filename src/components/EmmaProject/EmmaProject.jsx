@@ -14,7 +14,7 @@ export default function EmmaProject() {
                 <div className="emma__ctn-content">
                     <div className="emma__ctn-content-border">
                         <div className="emma__ctn-content-border-span"></div>
-                        <h3 className="emma__ctn-content-border-header">Emma - In Development</h3>
+                        <h3 className="emma__ctn-content-border-header">Emma</h3>
                     </div>
                     <p>
                         Emma, an AI-powered language learning platform that
@@ -24,7 +24,7 @@ export default function EmmaProject() {
                     </p>
                 </div>
                 <div className="emma__ctn-featured">
-                    <FeatureElement name="Days Left Until Alpha Version" number="35" element="+" />
+                    {/* <FeatureElement name="Days Left Until Alpha Version" number="35" element="+" /> */}
                 </div>
                 <div className="upcourt__ctn-buttons">
                     <div>

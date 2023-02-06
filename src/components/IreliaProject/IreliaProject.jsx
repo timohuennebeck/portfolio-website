@@ -22,7 +22,7 @@ export default function IreliaProject() {
                     </p>
                 </div>
                 <div className="irelia__ctn-featured">
-                    <FeatureElement name="Days Left Until Beta Version" number="10" element="+" />
+                    {/* <FeatureElement name="Days Left Until Beta Version" number="10" element="+" /> */}
                 </div>
                 <div className="irelia__ctn-buttons">
                     <div>

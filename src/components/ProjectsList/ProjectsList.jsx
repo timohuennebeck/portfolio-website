@@ -9,9 +9,9 @@ import EmmaProject from "../EmmaProject/EmmaProject";
 export default function ProjectsList() {
     return (
         <div className="projects-list">
+            <EmmaProject />
             <IreliaProject />
             <FuseProject />
-            <EmmaProject />
         </div>
     );
 }

@@ -21,7 +21,7 @@ export default function FuseProject() {
                     </p>
                 </div>
                 <div className="fuse__ctn-featured">
-                    <FeatureElement name="Days Left Until Alpha Version" number="8" element="+" />
+                    {/* <FeatureElement name="Days Left Until Alpha Version" number="8" element="+" /> */}
                 </div>
                 <div className="fuse__ctn-buttons">
                     <div>

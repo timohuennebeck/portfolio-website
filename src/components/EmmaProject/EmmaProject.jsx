@@ -26,7 +26,7 @@ export default function EmmaProject() {
                 <div className="emma__ctn-featured">
                     {/* <FeatureElement name="Days Left Until Alpha Version" number="35" element="+" /> */}
                 </div>
-                <div className="upcourt__ctn-buttons">
+                <div className="emma__ctn-buttons">
                     <div>
                         <ButtonElement
                             name="LIVE DEMO"
@@ -60,14 +60,14 @@ export default function EmmaProject() {
                     <ImageFrame img={emma3} />
                 </div>
             </div>
-            <div className="upcourt__buttons">
+            <div className="emma__buttons">
                 <ButtonElement
                     name="LIVE DEMO"
                     href="https://emma-language-learning.herokuapp.com/"
                     backgroundColor="#FFF"
                     fontColor="#000"
                 />
-                <div className="upcourt__buttons-github">
+                <div className="emma__buttons-github">
                     <ButtonElement
                         name="GITHUB"
                         href="https://github.com/timohuennebeck/emma-language-learning"

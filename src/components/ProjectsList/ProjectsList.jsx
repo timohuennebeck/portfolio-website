@@ -2,14 +2,14 @@ import "./ProjectsList.scss";
 
 import IreliaProject from "../IreliaProject/IreliaProject";
 import FuseProject from "../FuseProject/FuseProject";
-import UpCourtProject from "../UpCourtProject/UpCourtProject";
-import InStockProject from "../InStockProject/InStockProject";
 import EmmaProject from "../EmmaProject/EmmaProject";
+import SpellwiseProject from "../SpellwiseProject/SpellwiseProject";
 
 export default function ProjectsList() {
     return (
         <div className="projects-list">
             <EmmaProject />
+            <SpellwiseProject />
             <IreliaProject />
             <FuseProject />
         </div>

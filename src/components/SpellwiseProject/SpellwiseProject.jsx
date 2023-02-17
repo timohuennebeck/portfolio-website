@@ -17,7 +17,7 @@ export default function SpellwiseProject() {
                         <h3 className="spellwise__ctn-content-border-header">Spellwise</h3>
                     </div>
                     <p>
-                        Spellwise, a comprehensive AI grammar assistant that offers a range of
+                        Spellwise, a comprehensive AI-powered grammar assistant that offers a range of
                         features, such as real-time translation in over 10+ languages, grammar
                         correction, and customizable prompts, to elevate your writing and
                         communication skills to the next level.

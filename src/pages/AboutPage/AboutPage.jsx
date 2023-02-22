@@ -1,7 +1,7 @@
 import "./AboutPage.scss";
 
 import ImageFrame from "../../components/ImageFrame/ImageFrame";
-import cvPDF from "../../assets/documents/CV-Timo-Huennebeck-Frontend-Developer.pdf";
+import cvPDF from "../../assets/documents/Lebenslauf-Timo-Huennebeck-Frontend-Entwickler.pdf";
 import brainstationImg from "../../assets/images/brainstation.jpg";
 import ButtonElement from "../../components/ButtonElement/ButtonElement";
 
